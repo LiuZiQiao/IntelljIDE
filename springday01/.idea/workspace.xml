@@ -173,8 +173,8 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554651179617" />
-    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/springjar/spring-aop-4.2.4.RELEASE.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554734476213" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -207,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LessonAop.test2">
+  <component name="RunManager" selected="JUnit.LessonAop.test1">
     <configuration name="LessonAop.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springday01" />
       <extension name="coverage">
@@ -288,8 +288,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LessonAop.test2" />
         <item itemvalue="JUnit.LessonAop.test1" />
+        <item itemvalue="JUnit.LessonAop.test2" />
         <item itemvalue="JUnit.Lesson.test1" />
         <item itemvalue="JUnit.test1.test1" />
         <item itemvalue="JUnit.test1" />

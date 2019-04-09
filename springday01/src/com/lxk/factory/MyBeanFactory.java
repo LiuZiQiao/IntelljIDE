@@ -1,4 +1,8 @@
-package com.lxk.service;
+package com.lxk.factory;
+
+import com.lxk.aspectj.MyAspectJ;
+import com.lxk.service.UserService;
+import com.lxk.service.UserServiceimpl;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

@@ -1,12 +1,9 @@
 package test;
 
-import com.lxk.model.Person;
-import com.lxk.service.MyBeanFactory;
+import com.lxk.factory.MyBeanFactory;
 import com.lxk.service.UserService;
 import com.lxk.service.UserServiceimpl;
 import org.junit.Test;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class LessonAop {
     @Test

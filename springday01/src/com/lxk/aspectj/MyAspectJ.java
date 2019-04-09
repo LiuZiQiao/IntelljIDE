@@ -1,4 +1,4 @@
-package com.lxk.service;
+package com.lxk.aspectj;
 
 public class MyAspectJ {
     public void before()

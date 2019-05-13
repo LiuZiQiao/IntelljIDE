@@ -1,4 +1,4 @@
-package model;
+package com.lxk.model;
 
 public class User {
     private String username;

@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5d4c69b2-60cd-4847-aef5-40eff985baef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/HelloServelt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/MyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/MyResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/MyServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/MyTomcat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/ServletMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/ServletMappingConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVBlog/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVBlog/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/bean/RespBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/bean/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/controller/LoginRegController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/mapper/RolesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/utils/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVBlog/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVBlog/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVBlog/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.lxk.service/TaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.lxk.service/TaskServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VueSprintBootTest/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VueSprintBootTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crawler-autohome/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crawler-autohome/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crawler-autohome/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crawler-autohome/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crawler-autohome/src/main/java/com/lxk/crawler/autohome/config/HttpClientConnectManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crawler-autohome/src/main/java/com/lxk/crawler/autohome/config/SchedledCfg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crawler-autohome/src/main/java/com/lxk/crawler/autohome/config/TitleFilterCfg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crawler-autohome/src/main/java/com/lxk/crawler/autohome/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crawler-autohome/src/main/java/com/lxk/crawler/autohome/job/CloseConnectJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crawler-autohome/src/main/java/com/lxk/crawler/autohome/job/CrawlerAutohomeJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crawler-autohome/src/main/java/com/lxk/crawler/autohome/mapper/CarTestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crawler-autohome/src/main/java/com/lxk/crawler/autohome/mapper/TestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crawler-autohome/src/main/java/com/lxk/crawler/autohome/pojo/CarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crawler-autohome/src/main/java/com/lxk/crawler/autohome/service/ApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crawler-autohome/src/main/java/com/lxk/crawler/autohome/service/CarTestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crawler-autohome/src/main/java/com/lxk/crawler/autohome/service/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crawler-autohome/src/main/java/com/lxk/crawler/autohome/service/imp/ApiServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crawler-autohome/src/main/java/com/lxk/crawler/autohome/service/imp/CarTestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crawler-autohome/src/main/java/com/lxk/crawler/autohome/service/imp/TestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crawler-autohome/src/main/java/com/lxk/crawler/autohome/utils/JsoupUrlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crawler-autohome/src/main/java/com/lxk/crawler/autohome/utils/TitleFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crawler-autohome/src/main/java/com/lxk/crawler/autohome/utils/WordAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crawler-autohome/src/main/java/com/lxk/crawler/autohome/utils/WordAnalyzerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crawler-autohome/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crawler-autohome/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crawler-autohome/src/test/java/com/lxk/crawler/autohome/service/imp/ApiServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crawler-autohome/src/test/java/com/lxk/crawler/autohome/service/imp/TestCrawlerAutohome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../每日一题/src/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../每日一题/src/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../每日一题/src/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../每日一题/src/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../每日一题/src/n个数出现超过一半的数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../每日一题/src/最小公倍数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../每日一题/每日一题.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CMS/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CMS/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CMS/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CMS/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBlog/src/main/webapp/WEB-INF/views/comm/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBlog/src/main/webapp/WEB-INF/views/comm/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTomcat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyTomcat/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/.idea/libraries/mysql_connector_java_5_1_47.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OA_RegisterSystem/.idea/libraries/mysql_connector_java_5_1_47.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/.idea/libraries/servlet_api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OA_RegisterSystem/.idea/libraries/servlet_api.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/c3p0-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/StaticStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/commons/Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/ApplyDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/ClassTypeDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/ClassesDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/CustomerDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/CustomerStatusDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/FunctionDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/InfoSourceDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/RoleDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/impl/ApplyDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/impl/ClassTypeDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/impl/ClassesDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/impl/CustomerDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/impl/CustomerStatusDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/impl/FunctionDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/impl/InfoSourceDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/impl/RoleDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/impl/UserDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/Apply.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/BaseTestApply.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/ClassType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/Classes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/CustomerStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/Function.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/InfoSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/QuotaApply.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/ResumeApply.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/exception/DaoException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/filter/CheckCustomerLoginFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/filter/PrivilegeFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/filter/SetCharacterEncodingFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/service/ApplyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/service/ConfigService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/service/PrivilegeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/service/impl/ApplyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/service/impl/ConfigServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/service/impl/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/service/impl/PrivilegeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/test/Base64Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/test/CustomerDaoImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/util/C3P0Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/util/SendMail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/util/WebUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/web/controller/ApplyServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/web/controller/ConfigServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/web/controller/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/web/controller/PrivilegeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/web/controller/ProcessServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/number.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/config/CORSConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/config/PaginationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/config/PaginationUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/config/SQLiteDialect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/config/SQLiteDialect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/exception/ProjException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/exception/ProjException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/exception/ProjExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/exception/ProjExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/mapper/PersonsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/mapper/PersonsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/model/ErrorInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/model/ErrorInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/model/PageInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/model/PageInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/model/Persons.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/model/Persons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/resource/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/resource/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootWeb/src/main/java/com/lxk/web/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootWeb/src/main/java/com/lxk/web/TeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootWeb/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootWeb/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootWeb/src/main/webapp/WEB-INF/view/teacher/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootWeb/src/main/webapp/WEB-INF/view/teacher/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot_Test/Springboot_Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Test/Springboot_Test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot_Test/src/main/java/com/lxk/aop/WebLogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Test/src/main/java/com/lxk/aop/WebLogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot_Test/src/main/java/com/lxk/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Test/src/main/java/com/lxk/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot_Test/src/main/java/com/lxk/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Test/src/main/java/com/lxk/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot_Test/src/main/resource/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Test/src/main/resource/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot_Test/src/main/resource/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Test/src/main/resource/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebTest/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebTest/src/com/lxk/ChatSystem/bean/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebTest/src/com/lxk/ChatSystem/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebTest/src/com/servlet/FirstServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebTest/src/com/servlet/FirstServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebTest/src/com/servlet/SecondServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebTest/src/com/servlet/SecondServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebTest/src/com/servlet/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebTest/src/com/servlet/bean/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebTest/web/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WebTest/web/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/css/app.3da4c4025c3d262c99005e6d56f618da.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/css/app.3da4c4025c3d262c99005e6d56f618da.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/img/fontello.9354499.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/img/fontello.9354499.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/0.541abc7eadbe6ddede6b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/0.541abc7eadbe6ddede6b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/1.da4d60dbb1e419b79334.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/1.da4d60dbb1e419b79334.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/10.1579b3dea41e058f6854.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/10.1579b3dea41e058f6854.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/2.0370259fb135c1a2874f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/2.0370259fb135c1a2874f.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/3.79609af231a14d8b8ead.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/3.79609af231a14d8b8ead.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/4.c7f328ba5f9024f47eec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/4.c7f328ba5f9024f47eec.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/5.6755010dd4d3be54a6e9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/5.6755010dd4d3be54a6e9.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/6.7b33be54a485e77ca738.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/6.7b33be54a485e77ca738.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/7.f4c65b7448ee57cb7093.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/7.f4c65b7448ee57cb7093.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/8.da0debd7d5ff290e65df.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/8.da0debd7d5ff290e65df.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/9.b0704b91f93999a0fbd7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/9.b0704b91f93999a0fbd7.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/app.038f0f2e05268d414625.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/app.038f0f2e05268d414625.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/manifest.3bb8237077028ff666e9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/manifest.3bb8237077028ff666e9.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/vendor.9084f246f10e25c4ce63.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/vendor.9084f246f10e25c4ce63.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/config/dev.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/config/dev.env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/src/components/card/CardMe.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/src/components/card/CardMe.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4_10_Thread/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_10_Thread/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/bean01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/bean01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/dao/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/test/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/test/Test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/test/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/test/Test02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springday01/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springday01/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springday01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springday01/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SpringTaskTest" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.lxk.service/TaskService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.lxk.service/TaskServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+              <folding>
+                <element signature="e#132#133#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com.lxk.service/TaskService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.lxk.service/TaskServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="220" />
+    <option name="width" value="1246" />
+    <option name="height" value="779" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SpringTaskTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringTaskTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringTaskTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringTaskTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringTaskTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringTaskTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringTaskTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringTaskTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringTaskTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringTaskTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.lxk.service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringTaskTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringTaskTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringTaskTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringTaskTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringTaskTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringTaskTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558972204394" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\code\IntelljIDE\SpringTaskTest\src\main\resources" />
+      <recent name="F:\code\IntelljIDE\SpringTaskTest\src\main\java" />
+      <recent name="F:\code\IntelljIDE\SpringTaskTest\src\main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SpringBeansView">
+    <option name="showImplicitBeans" value="false" />
+    <option name="showInfrastructureBeans" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d4c69b2-60cd-4847-aef5-40eff985baef" name="Default Changelist" comment="" />
+      <created>1558797405189</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558797405189</updated>
+      <workItem from="1558797412275" duration="1665000" />
+      <workItem from="1558851165683" duration="1096000" />
+      <workItem from="1558872155038" duration="976000" />
+      <workItem from="1558945078358" duration="604000" />
+      <workItem from="1558969438961" duration="2724000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7065000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49880096" visible="true" weight="0.19213313" />
+      <window_info id="Structure" order="1" sideWeight="0.50119907" side_tool="true" weight="0.08774584" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50119907" side_tool="true" weight="0.08774584" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32850242" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32850242" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32850242" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.2979066" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924356" weight="0.34460548" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" visible="true" weight="0.13204509" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/META-INF/spring.schemas">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.lxk.service/TaskServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.lxk.service/TaskService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans-4.3.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="1120" column="36" lean-forward="true" selection-start-line="1120" selection-start-column="36" selection-end-line="1120" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

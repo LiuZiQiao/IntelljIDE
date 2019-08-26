@@ -1,3 +1,3 @@
-public interface Interface {
+public interface Interface2 {
     public void run();
 }

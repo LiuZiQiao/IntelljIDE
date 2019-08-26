@@ -64,4 +64,17 @@ public class FaceModel {
     public void setRace(String race) {
         this.race = race;
     }
+
+    @Override
+    public String toString() {
+        return "FaceModel{" +
+                "age=" + age +
+                ", beauty=" + beauty +
+                ", expression='" + expression + '\'' +
+                ", faceShape='" + faceShape + '\'' +
+                ", gender='" + gender + '\'' +
+                ", glasses='" + glasses + '\'' +
+                ", race='" + race + '\'' +
+                '}';
+    }
 }

@@ -33,7 +33,9 @@ public class CrawlerAutohomeJob extends QuartzJobBean {
     @Override
     protected void executeInternal(JobExecutionContext context) throws JobExecutionException {
 
+//        获取Spring容器
         ApplicationContext applicationContext = (ApplicationContext) context.getJobDetail().getJobDataMap().get("context");
+//        获取Spring容器中已初始化的bean
         apiService = applicationContext.getBean(ApiService.class);
         titleFilter = applicationContext.getBean(TitleFilter.class);
         carTestService = applicationContext.getBean(CarTestService.class);

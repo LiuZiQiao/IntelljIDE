@@ -2,63 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcabf198-9ed7-4ca5-86f5-472830ede1a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/HelloServelt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/MyRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/MyResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/MyServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/MyTomcat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/ServletMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/ServletMappingConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SVBlog/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SVBlog/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/bean/RespBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/bean/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/controller/LoginRegController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/mapper/RolesMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/utils/Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SVBlog/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SVBlog/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SVBlog/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../VueSprintBootTest/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../VueSprintBootTest/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/config/HttpClientConnectManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/config/SchedledCfg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/config/TitleFilterCfg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/job/CloseConnectJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/job/CrawlerAutohomeJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/mapper/CarTestMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/mapper/TestMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/pojo/CarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/ApiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/CarTestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/TestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/imp/ApiServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/imp/CarTestServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/imp/TestServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/JsoupUrlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/TitleFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/WordAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/WordAnalyzerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/service/imp/ApiServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/service/imp/TestCrawlerAutohome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../每日一题/src/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../每日一题/每日一题.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Review/src/Abstrack1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Review/src/Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Review/src/Interface2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Review/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../每日一题/src/偶串.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../每日一题/src/守形数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../每日一题/src/密码验证.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../每日一题/src/快到碗里来.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../每日一题/src/数字之和.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../每日一题/src/说反话.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CMS/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CMS/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CMS/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CMS/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyBlog/src/main/webapp/WEB-INF/views/comm/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBlog/src/main/webapp/WEB-INF/views/comm/top.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyTomcat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyTomcat/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/HelloServelt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/HelloServelt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/MyRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/MyRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/MyResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/MyResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/MyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/MyServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/MyTomcat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/MyTomcat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/ServletMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/ServletMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/ServletMappingConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/ServletMappingConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/.idea/libraries/mysql_connector_java_5_1_47.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OA_RegisterSystem/.idea/libraries/mysql_connector_java_5_1_47.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/.idea/libraries/servlet_api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OA_RegisterSystem/.idea/libraries/servlet_api.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/c3p0-config.xml" beforeDir="false" />
@@ -117,6 +81,36 @@
       <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/web/controller/PrivilegeServlet.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/web/controller/ProcessServlet.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/number.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/bean/RespBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/bean/RespBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/bean/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/bean/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/controller/LoginRegController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/controller/LoginRegController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/mapper/RolesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/mapper/RolesMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/utils/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/utils/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/fonts/element-icons.6f0a763.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/fonts/fontawesome-webfont.674f50d.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/fonts/fontawesome-webfont.af7ae50.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/fonts/fontawesome-webfont.b06871f.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/fonts/fontawesome-webfont.fee66e7.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/fonts/fontello.068ca2b.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/fonts/fontello.e73a064.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/img/fontawesome-webfont.912ec66.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/img/fontello.9354499.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/js/app.68f5c35407ca9cd40d8b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/js/app.68f5c35407ca9cd40d8b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/js/manifest.fc113b1d276302e2cab1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/js/manifest.fc113b1d276302e2cab1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/js/vendor.dd31c3932b33cfeec940.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/js/vendor.dd31c3932b33cfeec940.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/Application.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/config/CORSConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/config/PaginationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/config/PaginationUtil.java" afterDir="false" />
@@ -138,6 +132,11 @@
       <change beforePath="$PROJECT_DIR$/../SpringBoot_Test/src/main/java/com/lxk/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Test/src/main/java/com/lxk/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringBoot_Test/src/main/resource/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Test/src/main/resource/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringBoot_Test/src/main/resource/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Test/src/main/resource/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringImplement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringImplement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringImplement/src/main/java/com/lxk/spring/servlet/MyDispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringImplement/src/main/java/com/lxk/spring/servlet/MyDispatcherServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringImplement/src/main/java/com/lxk/testmyspring/action/DemoAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringImplement/src/main/java/com/lxk/testmyspring/action/DemoAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringImplement/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringImplement/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringTaskTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringTaskTest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebTest/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebTest/src/com/lxk/ChatSystem/bean/User.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebTest/src/com/lxk/ChatSystem/dao/UserDao.java" beforeDir="false" />
@@ -145,43 +144,21 @@
       <change beforePath="$PROJECT_DIR$/../WebTest/src/com/servlet/SecondServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebTest/src/com/servlet/SecondServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebTest/src/com/servlet/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebTest/src/com/servlet/bean/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebTest/web/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WebTest/web/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/java/com/lxk/config/FilterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/java/com/lxk/config/FilterConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/java/com/lxk/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/java/com/lxk/entity/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/java/com/lxk/entity/ArticleBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/java/com/lxk/entity/ArticleBody.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/css/app.3da4c4025c3d262c99005e6d56f618da.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/css/app.3da4c4025c3d262c99005e6d56f618da.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/img/fontello.9354499.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/img/fontello.9354499.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/0.541abc7eadbe6ddede6b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/0.541abc7eadbe6ddede6b.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/1.da4d60dbb1e419b79334.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/1.da4d60dbb1e419b79334.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/10.1579b3dea41e058f6854.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/10.1579b3dea41e058f6854.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/2.0370259fb135c1a2874f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/2.0370259fb135c1a2874f.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/3.79609af231a14d8b8ead.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/3.79609af231a14d8b8ead.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/4.c7f328ba5f9024f47eec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/4.c7f328ba5f9024f47eec.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/5.6755010dd4d3be54a6e9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/5.6755010dd4d3be54a6e9.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/6.7b33be54a485e77ca738.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/6.7b33be54a485e77ca738.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/7.f4c65b7448ee57cb7093.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/7.f4c65b7448ee57cb7093.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/8.da0debd7d5ff290e65df.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/8.da0debd7d5ff290e65df.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/9.b0704b91f93999a0fbd7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/9.b0704b91f93999a0fbd7.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/app.038f0f2e05268d414625.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/app.038f0f2e05268d414625.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/manifest.3bb8237077028ff666e9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/manifest.3bb8237077028ff666e9.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/vendor.9084f246f10e25c4ce63.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/static/js/vendor.9084f246f10e25c4ce63.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/build/webpack.base.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/build/webpack.prod.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/build/webpack.prod.conf.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/config/dev.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/config/dev.env.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/src/components/card/CardMe.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/src/components/card/CardMe.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/job/CrawlerAutohomeJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/job/CrawlerAutohomeJob.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day4_10_Thread/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_10_Thread/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/bean01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/bean01.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/dao/UserDaoImpl.java" afterDir="false" />
@@ -191,6 +168,8 @@
       <change beforePath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/db.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springday01/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springday01/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springday01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springday01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../每日一题/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一题/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../每日一题/out/production/每日一题/解密.class" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一题/out/production/每日一题/解密.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -201,85 +180,76 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/service/imp/TestCrawlerAutohome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/controller/TestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/WordAnalyzer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/WordAnalyzerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="55" lean-forward="true" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.44780636">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/JsoupUrlTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="107">
+                  <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/job/CrawlerAutohomeJob.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="232">
+                  <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/job/CloseConnectJob.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="354">
+                  <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/config/HttpClientConnectManager.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="351">
+                  <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/config/SchedledCfg.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-55">
+                  <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -311,7 +281,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/config/CloseConnectJob.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/ApiService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/TestApiService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/job/CloseConnectJob.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/service/imp/ApiServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/imp/ApiServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/TitleFilter.java" />
@@ -319,9 +288,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/TestCrawlerAutohome.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/CarTestService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/imp/CarTestServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/config/SchedledCfg.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/job/CrawlerAutohomeJob.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/JsoupUrlTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/mapper/CarTestMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/TestService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/imp/TestServiceImpl.java" />
@@ -331,6 +297,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/WordAnalyzerTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/config/SchedledCfg.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/JsoupUrlTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/job/CloseConnectJob.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/job/CrawlerAutohomeJob.java" />
       </list>
     </option>
   </component>
@@ -356,7 +326,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -424,26 +393,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="autohome" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler-autohome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler-autohome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="autohome" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler-autohome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler-autohome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="autohome" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="imp" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="crawler-autohome" type="b2602c69:ProjectViewProjectNode" />
@@ -469,40 +419,11 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="crawler-autohome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler-autohome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler-autohome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler-autohome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler-autohome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler-autohome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="autohome" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler-autohome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler-autohome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="autohome" type="462c0819:PsiDirectoryNode" />
-              <item name="imp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -515,7 +436,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558627811877" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563721783793" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome" />
@@ -657,6 +578,9 @@
       <workItem from="1558428951312" duration="1318000" />
       <workItem from="1558593301173" duration="958000" />
       <workItem from="1558610389046" duration="15014000" />
+      <workItem from="1559036677804" duration="949000" />
+      <workItem from="1563618238146" duration="6972000" />
+      <workItem from="1563768952977" duration="1056000" />
     </task>
     <servers />
   </component>
@@ -693,13 +617,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53524000" />
+    <option name="totallyTimeSpent" value="62501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22844176" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.204236" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -734,21 +658,47 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23600605" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5217391" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3188406" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.30514097" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/mapper/TestMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/annotation/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
@@ -756,17 +706,175 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/AppTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/TestApiService.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.3.13.RELEASE/spring-context-support-4.3.13.RELEASE.jar!/org/springframework/scheduling/quartz/QuartzJobBean.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="-412">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/TestApiService.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.3/jsoup-1.10.3.jar!/org/jsoup/select/Elements.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.1/quartz-2.2.1.jar!/org/quartz/core/JobRunShell.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="111" column="46" lean-forward="true" selection-start-line="111" selection-start-column="46" selection-end-line="111" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/kennycason/kumo-core/1.13/kumo-core-1.13.jar!/com/kennycason/kumo/nlp/FrequencyAnalyzer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/service/imp/ApiServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/ApiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/CarTestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/service/imp/TestCrawlerAutohome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/WordAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/wy.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="92" column="46" lean-forward="true" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/WordAnalyzerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/imp/TestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/imp/CarTestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/imp/ApiServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375">
+          <caret line="88" column="22" lean-forward="true" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/pojo/CarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
+        <state relative-caret-position="867">
           <caret line="135" column="30" lean-forward="true" selection-start-line="135" selection-start-column="30" selection-end-line="135" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -830,78 +938,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.3.13.RELEASE/spring-context-support-4.3.13.RELEASE.jar!/org/springframework/scheduling/quartz/QuartzJobBean.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/mapper/TestMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-412">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/config/HttpClientConnectManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.3/jsoup-1.10.3.jar!/org/jsoup/select/Elements.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/config/TitleFilterCfg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.1/quartz-2.2.1.jar!/org/quartz/core/JobRunShell.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="111" column="46" lean-forward="true" selection-start-line="111" selection-start-column="46" selection-end-line="111" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/job/CloseConnectJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/TitleFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/kennycason/kumo-core/1.13/kumo-core-1.13.jar!/com/kennycason/kumo/nlp/FrequencyAnalyzer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/config/SchedledCfg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        <state relative-caret-position="134">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -910,93 +950,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/mapper/CarTestMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="-645">
           <caret line="12" column="33" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/service/imp/ApiServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        <state relative-caret-position="243">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/job/CrawlerAutohomeJob.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/config/TitleFilterCfg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="46" column="35" selection-start-line="44" selection-start-column="33" selection-end-line="46" selection-end-column="35" />
+        <state relative-caret-position="597">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/ApiService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/TitleFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/CarTestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/imp/ApiServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-632">
-          <caret line="84" column="29" lean-forward="true" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/imp/CarTestServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/wy.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/WordAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="29" />
+        <state relative-caret-position="270">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1005,66 +987,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/JsoupUrlTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="107">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/TestService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/config/SchedledCfg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/service/imp/TestServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="-55">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/job/CloseConnectJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="354">
+          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lxk/crawler/autohome/service/imp/TestCrawlerAutohome.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/job/CrawlerAutohomeJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="232">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/config/HttpClientConnectManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/crawler/autohome/utils/WordAnalyzerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="55" lean-forward="true" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+        <state relative-caret-position="351">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

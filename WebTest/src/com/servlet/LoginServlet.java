@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-public class SecondServlet extends HttpServlet {
+public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         this.doGet(request,response);
     }
@@ -17,17 +17,18 @@ public class SecondServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html;charset=utf-8");
 
+        String username = request.getParameter("username");
+        String password = request.getParameter("password");
+
+        User stu = new User();
+        stu.setUsername(username);
+        stu.setPassword(password);
+        request.setAttribute("student", stu);
+		System.out.println(stu.getUsername()+"-"+stu.getPassword());
+
+
+
         request.setCharacterEncoding("utf-8");
-//        request.getParameter("SecondServlet");
-        User stu = (User) request.getAttribute("student");
-        System.out.println("seconde servlet"+stu.getUsername()+stu.getPassword());
-
-
-//		request.getParameter("FirstServlet");
-//		String sno = request.getParameter("num");
-//		String sname = request.getParameter("name");
-//		System.out.println(sno+"-"+sname);
-//		System.out.println("secondServlet is used");
         PrintWriter pw = response.getWriter();
 //		pw.write("Second Servlet");
 //		pw.write("<br/>");

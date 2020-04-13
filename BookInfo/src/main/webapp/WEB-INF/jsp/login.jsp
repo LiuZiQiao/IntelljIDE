@@ -3,10 +3,10 @@
 <html>
 <head>
     <title>图书馆首页</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/bootstrap.min.js" ></script>
-    <script src="js/js.cookie.js"></script>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/bootstrap.min.css">
+    <script src="${pageContext.request.contextPath}/static/js/jquery-3.2.1.js"></script>
+    <script src="${pageContext.request.contextPath}/static/js/bootstrap.min.js" ></script>
+    <script src="${pageContext.request.contextPath}/static/js/js.cookie.js"></script>
     <style>
         #myCarousel{
             margin-left: 2%;
@@ -45,7 +45,7 @@
             window.location.href="login.html";
 </script>
 </c:if>
-<h2 style="text-align: center;font-family: 'Adobe 楷体 Std R';color: palevioletred">图 书 馆</h2>
+<h2 style="text-align: center;font-family: 'Adobe 楷体 Std R';color: palevioletred">图 书 信 息 管 理</h2>
 <div style="float:right;" id="github_iframe"></div>
 <script>
     /**
@@ -175,13 +175,13 @@
     </ol>
     <div class="carousel-inner">
         <div class="item active">
-            <img src="img/82839-106.jpg" alt="第一张">
+            <img src="${pageContext.request.contextPath}/static/images/82839-106.jpg" alt="第一张">
         </div>
         <div class="item">
-            <img src="img/105905-106.jpg" alt="第二张">
+            <img src="${pageContext.request.contextPath}/static/images/105905-106.jpg" alt="第二张">
         </div>
         <div class="item">
-            <img src="img/296494-106.jpg" alt="第三张">
+            <img src="${pageContext.request.contextPath}/static/images/296494-106.jpg" alt="第三张">
         </div>
 
     </div>
@@ -195,6 +195,7 @@
 <div class="panel panel-default" id="login">
     <div class="panel-heading" style="background-color: #fff">
         <h3 class="panel-title">请登录</h3>
+        <span id="error">${login_error}</span>
     </div>
     <div class="panel-body">
         <div class="form-group">
@@ -209,7 +210,8 @@
             <label>
                 <input type="checkbox" id="remember">记住密码
             </label>
-            <a style="margin-left: 100px" href="#">忘记密码?</a>
+            <a style="margin-left: 50px" href="/regist_page"> 还没有账号? 注册新用户</a>
+            </a>
         </div>
 
         <p style="text-align: right;color: red;position: absolute" id="info"></p><br/>
@@ -229,9 +231,9 @@
             }
         )
         // 记住登录信息
-        function rememberLogin(username, password, checked) {
+        function rememberLogin(adminId, password, checked) {
             Cookies.set('loginStatus', {
-                username: username,
+                adminId: adminId,
                 password: password,
                 remember: checked
             }, {expires: 30, path: ''})
@@ -243,7 +245,7 @@
                 var loginStatus
                 try {
                     loginStatus = JSON.parse(loginStatusText);
-                    $('#id').val(loginStatus.username);
+                    $('#id').val(loginStatus.adminId);
                     $('#passwd').val(loginStatus.password);
                     $("#remember").prop('checked',true);
                 } catch (__) {}
@@ -272,10 +274,10 @@
             else {
                 $.ajax({
                     type: "POST",
-                    url: "/api/loginCheck",
+                    url: "/login",
                     data: {
-                        id:id ,
-                        passwd: passwd
+                        adminId:id ,
+                        password: passwd
                     },
                     dataType: "json",
                     success: function(data) {
@@ -283,7 +285,7 @@
                             $("#info").text("提示:账号或密码错误！");
                         } else if(data.stateCode.trim() == "1") {
                             $("#info").text("提示:登陆成功，跳转中...");
-                            window.location.href="/admin_main.html";
+                            window.location.href="/index";
                         } else if(data.stateCode.trim() == "2"){
                             if(remember){
                                 rememberLogin(id,passwd,remember);
@@ -291,9 +293,7 @@
                                 Cookies.remove('loginStatus');
                             }
                             $("#info").text("提示:登陆成功，跳转中...");
-                            window.location.href="/reader_main.html";
-
-
+                            window.location.href="/index";
                         }
                     }
                 });

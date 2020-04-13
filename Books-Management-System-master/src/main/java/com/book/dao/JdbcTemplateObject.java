@@ -17,9 +17,9 @@ public class JdbcTemplateObject {
         //        设置数据库信息
         this.dataSource = new DriverManagerDataSource();
         this.dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-        this.dataSource.setUrl("jdbc:mysql://192.168.184.130:3306/gxrdb");
+        this.dataSource.setUrl("jdbc:mysql:///library?characterEncoding=utf8");
         this.dataSource.setUsername("root");
-        this.dataSource.setPassword("root");
+        this.dataSource.setPassword("123456");
 
 //        设置数据源
         this.jdbcTemplate = new JdbcTemplate(dataSource);

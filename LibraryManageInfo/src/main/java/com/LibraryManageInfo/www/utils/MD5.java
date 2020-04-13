@@ -1,4 +1,4 @@
-package com.curd.utils;
+package com.LibraryManageInfo.www.utils;
 
 /**
  * @author xiaokun-liu

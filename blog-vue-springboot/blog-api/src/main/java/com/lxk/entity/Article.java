@@ -17,6 +17,7 @@ import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.hibernate.validator.constraints.NotBlank;
 
 import com.alibaba.fastjson.annotation.JSONField;
@@ -31,6 +32,7 @@ import com.lxk.common.entity.BaseEntity;
  */
 @Entity
 @Table(name = "me_article")
+//@JsonIgnoreProperties({ "handler","hibernateLazyInitializer" })
 public class Article extends BaseEntity<Integer> {
 
     public static final int Article_TOP = 1;

@@ -4,4 +4,5 @@ import com.lxk.spring.annotation.MyController;
 
 @MyController
 public class DemoAction {
+
 }

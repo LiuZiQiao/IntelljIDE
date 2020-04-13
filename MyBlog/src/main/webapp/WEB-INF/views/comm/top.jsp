@@ -27,7 +27,7 @@
                     <li id="webPage"><a href="<%=contextPath%>/column/JavaWeb专栏/webPage">JavaWeb专栏</a></li>
                     <li id="androidPage"><a href="<%=contextPath%>/column/Android专栏/androidPage">Linux专栏</a>
                     </li>
-                    <li id="rnPage"><a href="<%=contextPath%>/column/React Native专栏/rnPage">C/C++专栏</a>
+                    <li id="rnPage"><a href="<%=contextPath%>/column/React Native专栏/rnPage">C//C++专栏</a>
                     </li>
                     <li id="ubuntuPage"><a href="<%=contextPath%>/column/Ubuntu专栏/ubuntuPage">Ubuntu专栏</a>
                     </li>

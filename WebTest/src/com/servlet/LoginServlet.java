@@ -1,6 +1,7 @@
-package com;
+package com.servlet;
 
 import com.bean.User;
+import com.dao.UserDao;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -20,21 +21,16 @@ public class LoginServlet extends HttpServlet {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
 
-        User stu = new User();
-        stu.setUsername(username);
-        stu.setPassword(password);
-        request.setAttribute("student", stu);
-		System.out.println(stu.getUsername()+"-"+stu.getPassword());
-
-
-
-        request.setCharacterEncoding("utf-8");
-        PrintWriter pw = response.getWriter();
-//		pw.write("Second Servlet");
-//		pw.write("<br/>");
-//		pw.write("学号："+sno+"<br/>");
-//		pw.write("姓名："+sname);
-        pw.write(stu.getUsername());
-        pw.close();
+        User user = null;
+        UserDao userDao = new UserDao();
+        user = userDao.Login(username,password);
+        if (user != null){
+            request.setAttribute("user", user);
+            request.setCharacterEncoding("utf-8");
+            PrintWriter pw = response.getWriter();
+            pw.write(user.getUsername()+"    welcome to website test");
+            pw.close();
+        }
+		System.out.println(user.getUsername()+"-"+user.getPassword());
     }
 }

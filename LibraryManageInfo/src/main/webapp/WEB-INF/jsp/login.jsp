@@ -33,13 +33,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   	<span id="error">${login_error}</span>
 	<fieldset style="width: 300px;">
 	<legend style="">用户登陆</legend>
-   		<form action="user/login" method="post">
+   		<form action="/login" method="post">
    			用户名称:<input name="username" /><br/>
    			用户口令:<input type="password" name="password" /><br/>
    			<input type="submit" value="登陆"/>&nbsp;&nbsp;&nbsp;&nbsp;
    			<input type="reset" value="重置">
    		</form>
-   		还没有账号?请&nbsp;&nbsp;<a href='user/regist_page'>注册新用户</a>
+   		还没有账号?请&nbsp;&nbsp;<a href='/regist_page'>注册新用户</a>
    	</fieldset>
   </center>
   

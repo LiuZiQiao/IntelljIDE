@@ -6,6 +6,7 @@ import javax.persistence.FetchType;
 import javax.persistence.Lob;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.hibernate.annotations.Type;
 
 import com.lxk.common.entity.BaseEntity;
@@ -19,6 +20,8 @@ import com.lxk.common.entity.BaseEntity;
  */
 @Entity
 @Table(name = "me_article_body")
+//@JsonIgnoreProperties({ "handler","hibernateLazyInitializer" })
+//@JsonIgnoreProperties(value={"hibernateLazyInitializer","handler","fieldHandler"})
 public class ArticleBody extends BaseEntity<Long> {
 
     /**
@@ -56,6 +59,4 @@ public class ArticleBody extends BaseEntity<Long> {
     public void setContentHtml(String contentHtml) {
         this.contentHtml = contentHtml;
     }
-
-
 }

@@ -5,8 +5,15 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 public abstract class MyServlet {
-    public abstract void init();
-    public abstract void service(InputStream is, OutputStream os) throws IOException;
-    public abstract void doGet(MyRequest myrequest);
+    public abstract void init(MyRequest myRequest,MyResponse myResponse);
+    public abstract void doGet(MyRequest myrequest, MyResponse myResponse);
+    public abstract void doPost(MyRequest myrequest, MyResponse myResponse);
+    public  void Service(MyRequest myrequest, MyResponse myResponse){
+        if(myrequest.getMethod().equals("doGet")){
+            doGet(myrequest,myResponse);
+        }else if (myrequest.getMethod().equals("doPost")){
+            doPost(myrequest,myResponse);
+        }
+    }
     public abstract void destory();
 }

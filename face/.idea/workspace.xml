@@ -7,131 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="994efe48-2b31-43fd-9f6e-fdd44712eb86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../chat_room/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat_room/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Face.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/timg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/face/model/FaceModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/face/utils/FaceAi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/face/utils/ImageTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lxk/face/utils/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/font/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/lay/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/lay/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/lay/modules/transfer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/layui/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thread/src/main/java/com/lxk/Testtt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../每日一题/src/IFFF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ActiveMQ_Demo/ActiveMQ_Demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CMS/CMS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meeting/Meeting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootVuepersonManager/SpringBootVuepersonManager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootWeb/SpringBootWeb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VueSprintBootTest/VueSprintBootTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebTest/WebTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/node_modules/clone/clone.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue-springboot/服务器端/blog-app/node_modules/clone/clone.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day3_15/day3_15.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4_12/day4_12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/day4_21_JDBCTemplate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/face.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CMS/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CMS/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CMS/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CMS/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyBlog/src/main/webapp/WEB-INF/views/comm/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBlog/src/main/webapp/WEB-INF/views/comm/top.jsp" afterDir="false" />
@@ -143,98 +33,6 @@
       <change beforePath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/MyTomcat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/MyTomcat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/ServletMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/ServletMapping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/ServletMappingConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/ServletMappingConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/.idea/libraries/mysql_connector_java_5_1_47.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OA_RegisterSystem/.idea/libraries/mysql_connector_java_5_1_47.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/.idea/libraries/servlet_api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OA_RegisterSystem/.idea/libraries/servlet_api.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/c3p0-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/StaticStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/commons/Page.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/ApplyDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/ClassTypeDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/ClassesDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/CustomerDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/CustomerStatusDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/FunctionDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/InfoSourceDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/RoleDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/impl/ApplyDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/impl/ClassTypeDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/impl/ClassesDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/impl/CustomerDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/impl/CustomerStatusDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/impl/FunctionDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/impl/InfoSourceDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/impl/RoleDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/impl/UserDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/Apply.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/BaseTestApply.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/ClassType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/Classes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/CustomerStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/Function.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/InfoSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/QuotaApply.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/ResumeApply.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/exception/DaoException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/filter/CheckCustomerLoginFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/filter/PrivilegeFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/filter/SetCharacterEncodingFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/service/ApplyService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/service/ConfigService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/service/CustomerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/service/PrivilegeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/service/impl/ApplyServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/service/impl/ConfigServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/service/impl/CustomerServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/service/impl/PrivilegeServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/test/Base64Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/test/CustomerDaoImplTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/util/C3P0Util.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/util/SendMail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/util/WebUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/web/controller/ApplyServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/web/controller/ConfigServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/web/controller/LoginServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/web/controller/PrivilegeServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/web/controller/ProcessServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/number.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Review/src/Abstrack1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Review/src/Abstrack1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Review/src/Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Review/src/Interface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Review/src/Interface2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Review/src/Interface2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Review/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Review/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/bean/RespBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/bean/RespBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/bean/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/bean/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/bean/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/controller/LoginRegController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/controller/LoginRegController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/mapper/RolesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/mapper/RolesMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/utils/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/utils/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/fonts/element-icons.6f0a763.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/fonts/fontawesome-webfont.674f50d.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/fonts/fontawesome-webfont.af7ae50.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/fonts/fontawesome-webfont.b06871f.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/fonts/fontawesome-webfont.fee66e7.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/fonts/fontello.068ca2b.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/fonts/fontello.e73a064.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/img/fontawesome-webfont.912ec66.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/img/fontello.9354499.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/js/app.68f5c35407ca9cd40d8b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/js/app.68f5c35407ca9cd40d8b.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/js/manifest.fc113b1d276302e2cab1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/js/manifest.fc113b1d276302e2cab1.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/js/vendor.dd31c3932b33cfeec940.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/js/vendor.dd31c3932b33cfeec940.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/Application.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/config/CORSConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/config/PaginationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/config/PaginationUtil.java" afterDir="false" />
@@ -260,7 +58,6 @@
       <change beforePath="$PROJECT_DIR$/../SpringImplement/src/main/java/com/lxk/spring/servlet/MyDispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringImplement/src/main/java/com/lxk/spring/servlet/MyDispatcherServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringImplement/src/main/java/com/lxk/testmyspring/action/DemoAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringImplement/src/main/java/com/lxk/testmyspring/action/DemoAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringImplement/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringImplement/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringTaskTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringTaskTest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebTest/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebTest/src/com/lxk/ChatSystem/bean/User.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebTest/src/com/lxk/ChatSystem/dao/UserDao.java" beforeDir="false" />
@@ -280,9 +77,6 @@
       <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/config/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/src/components/card/CardMe.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/src/components/card/CardMe.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../crawler-autohome/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crawler-autohome/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../crawler-autohome/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crawler-autohome/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../crawler-autohome/src/main/java/com/lxk/crawler/autohome/job/CrawlerAutohomeJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/../crawler-autohome/src/main/java/com/lxk/crawler/autohome/job/CrawlerAutohomeJob.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day4_10_Thread/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_10_Thread/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/bean01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/bean01.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/dao/UserDaoImpl.java" afterDir="false" />
@@ -290,31 +84,14 @@
       <change beforePath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/test/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/test/Test01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/test/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/test/Test02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springday01/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springday01/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springday01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springday01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../thread/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../thread/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../thread/target/classes/META-INF/thread.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/../thread/target/classes/META-INF/thread.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../thread/target/classes/com/lxk/redis/RedisUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../thread/target/classes/com/lxk/redis/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../thread/target/classes/com/lxk/thread/GracefulSingleton$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../thread/target/classes/com/lxk/thread/GracefulSingleton$SingletonHoder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../thread/target/classes/com/lxk/thread/GracefulSingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../thread/target/classes/com/lxk/thread/LazySingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../thread/target/classes/com/lxk/thread/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../thread/target/classes/com/lxk/thread/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../thread/target/classes/com/lxk/thread/Singleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../thread/target/classes/com/lxk/thread/SingletonClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../thread/target/classes/com/lxk/thread/SynchoronizedDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../thread/target/classes/com/lxk/thread/SynchoronizedDemo$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../thread/target/classes/com/lxk/thread/SynchoronizedDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../thread/target/classes/com/lxk/thread/ThreadPoolFactoryUtil$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../thread/target/classes/com/lxk/thread/ThreadPoolFactoryUtil$SingletonContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../thread/target/classes/com/lxk/thread/ThreadPoolFactoryUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../thread/target/classes/com/lxk/thread/test_类锁与对象锁_解决方案$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../thread/target/classes/com/lxk/thread/test_类锁与对象锁_解决方案.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../thread/target/classes/com/lxk/thread/test_类锁与对象锁的区别.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../每日一题/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一题/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../每日一题/out/production/每日一题/解密.class" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一题/out/production/每日一题/解密.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../每日一题/src/IFFF.java" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一题/src/IFFF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../每日一题/src/tt.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../每日一题/src/偶串.java" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一题/src/偶串.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../每日一题/src/守形数.java" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一题/src/守形数.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../每日一题/src/密码验证.java" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一题/src/密码验证.java" afterDir="false" />
@@ -322,110 +99,13 @@
       <change beforePath="$PROJECT_DIR$/../每日一题/src/数字之和.java" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一题/src/数字之和.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../每日一题/src/说反话.java" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一题/src/说反话.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/face/utils/FaceAi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="38" column="24" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/face/model/FaceModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="68" column="18" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
-              <folding>
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#418#419#0" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
-                <element signature="e#728#729#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#796#797#0" expanded="true" />
-                <element signature="e#846#847#0" expanded="true" />
-                <element signature="e#888#889#0" expanded="true" />
-                <element signature="e#921#922#0" expanded="true" />
-                <element signature="e#950#951#0" expanded="true" />
-                <element signature="e#994#995#0" expanded="true" />
-                <element signature="e#1030#1031#0" expanded="true" />
-                <element signature="e#1064#1065#0" expanded="true" />
-                <element signature="e#1094#1095#0" expanded="true" />
-                <element signature="e#1140#1141#0" expanded="true" />
-                <element signature="e#1178#1179#0" expanded="true" />
-                <element signature="e#1209#1210#0" expanded="true" />
-                <element signature="e#1236#1237#0" expanded="true" />
-                <element signature="e#1276#1277#0" expanded="true" />
-                <element signature="e#1308#1309#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/face/utils/ImageTool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/face/utils/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -436,19 +116,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/lxk/face/model/Test.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lxk/face/model/FaceMedel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lxk/face/utils/FaceAi.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lxk/face/utils/ImageTool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lxk/face/model/FaceModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lxk/face/utils/Test.java" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -462,109 +129,24 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="face" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="face" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="2" />
-    <option name="y" value="5" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
-  </component>
+  <component name="ProjectId" id="1Z4pupYc0grUgzXDZInZxsX3a4E" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="face" type="b2602c69:ProjectViewProjectNode" />
-              <item name="face" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="face" type="b2602c69:ProjectViewProjectNode" />
-              <item name="face" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="face" type="b2602c69:ProjectViewProjectNode" />
-              <item name="face" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="face" type="b2602c69:ProjectViewProjectNode" />
-              <item name="face" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="face" type="b2602c69:ProjectViewProjectNode" />
-              <item name="face" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="face" type="b2602c69:ProjectViewProjectNode" />
-              <item name="face" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="face" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="face" type="b2602c69:ProjectViewProjectNode" />
-              <item name="face" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="face" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="face" type="b2602c69:ProjectViewProjectNode" />
-              <item name="face" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="face" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="face" type="b2602c69:ProjectViewProjectNode" />
-              <item name="face" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566728803715" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580377787157" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -572,7 +154,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -584,20 +166,10 @@
       <recent name="F:\code\IntelljIDE\face\src" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.lxk.face.utils.Test" />
       <module name="face" />
       <extension name="coverage">
@@ -606,6 +178,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="face" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -683,11 +262,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.FaceTomcat" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -703,136 +283,51 @@
       <option name="presentableId" value="Default" />
       <updated>1566716886386</updated>
       <workItem from="1566716888182" duration="9636000" />
+      <workItem from="1566810265548" duration="1701000" />
+      <workItem from="1580377477893" duration="331000" />
+      <workItem from="1580377853008" duration="453000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9636000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18305598" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.32850242" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.3236715" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27697262" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" weight="0.32980332" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+    <option name="totallyTimeSpent" value="12121000" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/face/utils/FaceAi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="38" column="24" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/face/model/FaceModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="68" column="18" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
-          <folding>
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
-            <element signature="e#994#995#0" expanded="true" />
-            <element signature="e#1030#1031#0" expanded="true" />
-            <element signature="e#1064#1065#0" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1178#1179#0" expanded="true" />
-            <element signature="e#1209#1210#0" expanded="true" />
-            <element signature="e#1236#1237#0" expanded="true" />
-            <element signature="e#1276#1277#0" expanded="true" />
-            <element signature="e#1308#1309#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/face/utils/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lxk/face/utils/ImageTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584109088516">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1584109088516" />
+    <state x="463" y="72" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1584109078241">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="72" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728@0.0.1366.728" timestamp="1584109078241" />
+    <state width="1323" height="132" key="GridCell.Tab.0.bottom" timestamp="1584110950651">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="132" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584110950651" />
+    <state width="1323" height="132" key="GridCell.Tab.0.center" timestamp="1584110950650">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="132" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584110950650" />
+    <state width="1323" height="132" key="GridCell.Tab.0.left" timestamp="1584110950650">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="132" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584110950650" />
+    <state width="1323" height="132" key="GridCell.Tab.0.right" timestamp="1584110950651">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="132" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584110950651" />
+    <state x="186" y="9" key="SettingsEditor" timestamp="1584108895974">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584108895974" />
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1584108465088">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584108465088" />
   </component>
   <component name="masterDetails">
     <states>

@@ -1,10 +1,10 @@
 package com.LibraryManageInfo.www.service.impl;
 
-import com.curd.dao.IUserDao;
-import com.curd.entitys.User;
-import com.curd.service.IUserService;
-import com.curd.utils.AutoGenerateUserid;
-import com.curd.utils.MD5;
+import com.LibraryManageInfo.www.dao.IUserDao;
+import com.LibraryManageInfo.www.entitys.User;
+import com.LibraryManageInfo.www.service.IUserService;
+import com.LibraryManageInfo.www.utils.AutoGenerateUserid;
+import com.LibraryManageInfo.www.utils.MD5;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -24,6 +24,7 @@ public class UserServiceImpl implements IUserService {
     @Override
     public int regist(User user) {
         // 解密据说需要60年
+        //bug：验证数据库中不存在时注册，避免重复注册
         String md5_pass = new MD5().getMD5ofStr(user.getPassword());
         user.setUserid(new AutoGenerateUserid().getUserid_auto());
         user.setPassword(md5_pass);
@@ -35,22 +36,5 @@ public class UserServiceImpl implements IUserService {
         String md5_pass = new MD5().getMD5ofStr(user.getPassword());
         user.setPassword(md5_pass);
         return userDao.login(user);
-    }
-
-    @Override
-    public List<User> getAllUsers() {
-        return userDao.getAllUsers();
-    }
-
-    @Override
-    public int removeUserByUserid(int userid) {
-        return userDao.removeUserByUserid(userid);
-    }
-
-    @Override
-    public int modifyUser_passByUserid(User user) {
-        String md5_pass = new MD5().getMD5ofStr(user.getPassword());
-        user.setPassword(md5_pass);
-        return userDao.modifyUser_passByUserid(user);
     }
 }

@@ -10,7 +10,7 @@
 <head>
 	<base href="<%=basePath%>">
 
-	<title>My JSP 'showAllUsers.jsp' starting page</title>
+	<title>My JSP 'showAllBooks.jsp' starting page</title>
 
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
@@ -33,31 +33,6 @@
 			$("table>tbody>tr:even").css("background","gray");
 			$("table>tbody>tr:odd").css("background","pink");
 		});
-
-		function sc() {
-			$("#file").click().change(function() {
-				//原来的图片名称
-				alert("msg:   ");
-				var photo_name = $("#personal_photo").attr("src").substr(7);//获取当前显示的图片的名称
-				$.ajax({
-					type : "post",
-					url : "file/personalPhoto_upload?photo_name="+photo_name,
-					//dataType:"json",
-					enctype : "multipart/form-data",
-					data : new FormData($("#uploadForm")[0]),//新的文件对象（新的图片名称）
-					processData : false, //data的值是FormData对象，不需要对数据进行处理
-					contentType : false, //FormData对象由form表单构建
-					cache : false,
-					//成功回调函数
-					success : function(msg) {
-						alert("msg:   "+msg);
-						/* alert(msg+"   传回来的文件名称"); *///msg----文件名
-						$("#personal_photo").attr("src","upload/" + msg);
-					}
-				});
-			});
-		}
-
 	</script>
 </head>
 <!-- ajax:无需重新加载整个网页的情况下，能够更新部分网页的技术 (局部刷新)-->
@@ -72,44 +47,34 @@ ${user.username}先生/女士，欢迎您,
 <table>
 	<thead>
 	<tr>
-		<th>用户编号</th>
-		<th>用户姓名</th>
-		<th>用户口令</th>
-		<th>用户性别</th>
-		<th>操作</th>
+		<th>订购号</th>
+		<th>实到价格</th>
+		<th>实到册数</th>
+		<th>到货日期</th>
+		<th>经手人职工号</th>
+		<th>备注</th>
 	</tr>
 	</thead>
 	<tbody>
 	<!-- 美元符大括号-EL表达式 -从page,request,session,application -->
 	<!-- 	c:forEach var="集合中每一个对象的别名" items="要遍历的集合" sessionScope.userList -->
-	<c:forEach var="user" items="${userList}">
+	<c:forEach var="book" items="${bookList}">
 		<tr>
-			<!-- ${user.userid}=== -->
+			<!-- ${book.DGH}=== -->
 				<%-- <%user.getUserid()%> --%>
-			<th>${user.userid}</th>
-			<th>${user.username}</th>
-			<th>${user.password}</th>
-			<th>${user.sex}</th>
-			<th>
-				<button onclick="javaScript:location.href='user/removeUserByUserid/${user.userid}?pageNum=${pageInfo.pageNum}&maxPage=${pageInfo.pages}'">删除</button>
-				&nbsp;&nbsp;&nbsp;&nbsp;
-				<button onclick="modifyUser_passByUserid(${user.userid})">修改</button>
-				<script>
-					function modifyUser_passByUserid(userid){
-						var newPass=prompt("请输入新密码","请认真填写");
-						location.href="user/modifyUser_passByUserid?userid="+userid+"&newPass="+newPass+"&pageNum=${pageInfo.pageNum}&maxPage=${pageInfo.pages}";
-					}
-				</script>
-
-			</th>
+			<th>${book.SDJG}</th>
+			<th>${book.SDCS}</th>
+			<th>${book.DHRQ}</th>
+			<th>${book.JSRZGH}</th>
+			<th>${book.BZ}</th>
 		</tr>
 	</c:forEach>
 	</tbody>
+	<center>
+		当前第${pageInfo.pageNum}页/总共${pageInfo.pages}页  ，
+		<a href="user/getAllUsers?pageNum=${pageInfo.pageNum-1}&maxPage=${pageInfo.pages}">上一页</a>
+		<a href="user/getAllUsers?pageNum=${pageInfo.pageNum+1}&maxPage=${pageInfo.pages}">下一页</a>
+	</center>
 </table>
-<center>
-	当前第${pageInfo.pageNum}页/总共${pageInfo.pages}页  ，
-	<a href="user/getAllUsers?pageNum=${pageInfo.pageNum-1}&maxPage=${pageInfo.pages}">上一页</a>
-	<a href="user/getAllUsers?pageNum=${pageInfo.pageNum+1}&maxPage=${pageInfo.pages}">下一页</a>
-</center>
 </body>
 </html>

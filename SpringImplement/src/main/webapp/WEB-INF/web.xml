@@ -5,4 +5,19 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
          version="2.4">
         <display-name>Web Application</display-name>
+        
+        <servlet>
+                <servlet-name>spring</servlet-name>
+                <servlet-class>com.lxk.spring.servlet.MyDispatcherServlet</servlet-class>
+                <init-param>
+                        <param-name>contextConfigLocation</param-name>
+                        <param-value>aplication.properties</param-value>
+                </init-param>
+                <load-on-startup>1</load-on-startup>
+        </servlet>
+
+        <servlet-mapping>
+                <servlet-name>spring</servlet-name>
+                <url-pattern>/*</url-pattern>
+        </servlet-mapping>r
 </web-app>

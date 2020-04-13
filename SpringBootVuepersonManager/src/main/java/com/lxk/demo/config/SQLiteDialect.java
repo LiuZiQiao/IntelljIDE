@@ -1,4 +1,7 @@
 package com.lxk.demo.config;
 
-public class SQLiteDialect {
+import org.hibernate.dialect.Dialect;
+
+public class SQLiteDialect extends Dialect {
+
 }

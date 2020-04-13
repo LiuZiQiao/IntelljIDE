@@ -1,6 +1,7 @@
 package com.lxk.demo.config;
 
 import com.lxk.demo.mapper.PersonsMapper;
+import com.lxk.demo.model.PageInfo;
 import com.lxk.demo.model.Persons;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
@@ -9,9 +10,35 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
 
+import java.util.HashMap;
+import java.util.Map;
+
 
 @Component
-public class SpringUtil implements ApplicationContextAware {
+public class PaginationUtil{
+    private PageInfo pageInfo = new PageInfo();
+
+    private Map<String,PageInfo> results = new HashMap<>();
+    public Map<String,PageInfo> filterQuery(String sex,String email,Pageable pageable){
+        Types typeInstance;
+        if(sex.length() == 0 && email.length() == 0){
+            typeInstance = new AllType(sex,email,pageable);
+        }else if(sex.length()>0 &&email.length()>0){
+            typeInstance = new SexEmailType(sex,email,pageable);
+        }else {
+            typeInstance = new SexType(sex,email,pageable);
+        }
+
+        this.pageInfo.setCount(typeInstance.getCount());
+        this.pageInfo.setPage(typeInstance.getPageNumber()+1);
+        this.pageInfo.setResults(typeInstance.getContent());
+        this.pageInfo.setTotal(typeInstance.getTotal());
+        this.results.put("data",this.pageInfo);
+        return results;
+    }
+}
+
+class SpringUtil implements ApplicationContextAware {
 
     private static ApplicationContext applicationContext = null;
     @Override
@@ -154,8 +181,4 @@ class SexType extends BasePaginationInfo implements Types{
     public Object getContent() {
         return this.query().getContent();
     }
-}
-
-class PaginationUtil{
-    
 }

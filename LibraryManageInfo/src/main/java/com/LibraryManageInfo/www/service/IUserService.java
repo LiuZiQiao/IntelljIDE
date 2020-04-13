@@ -1,6 +1,7 @@
 package com.LibraryManageInfo.www.service;
 
-import com.curd.entitys.User;
+
+import com.LibraryManageInfo.www.entitys.User;
 
 import java.util.List;
 
@@ -14,10 +15,4 @@ public interface IUserService {
     int regist(User user);
 
     User login(User user);
-
-    List<User> getAllUsers();
-
-    int removeUserByUserid(int userid);
-
-    int modifyUser_passByUserid(User user);
 }

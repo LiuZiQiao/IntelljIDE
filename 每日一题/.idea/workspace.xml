@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3c4cea6-358a-4716-b6de-587a49d50ff7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/兔子.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/解密.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CMS/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CMS/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CMS/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CMS/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyBlog/src/main/webapp/WEB-INF/views/comm/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBlog/src/main/webapp/WEB-INF/views/comm/top.jsp" afterDir="false" />
@@ -15,94 +13,6 @@
       <change beforePath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/MyTomcat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/MyTomcat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/ServletMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/ServletMapping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/ServletMappingConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyTomcat/src/com/lxk/MyTomcat/mytomcatV3/ServletMappingConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/.idea/libraries/mysql_connector_java_5_1_47.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OA_RegisterSystem/.idea/libraries/mysql_connector_java_5_1_47.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/.idea/libraries/servlet_api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OA_RegisterSystem/.idea/libraries/servlet_api.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/c3p0-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/StaticStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/commons/Page.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/ApplyDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/ClassTypeDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/ClassesDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/CustomerDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/CustomerStatusDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/FunctionDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/InfoSourceDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/RoleDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/impl/ApplyDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/impl/ClassTypeDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/impl/ClassesDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/impl/CustomerDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/impl/CustomerStatusDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/impl/FunctionDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/impl/InfoSourceDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/impl/RoleDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/dao/impl/UserDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/Apply.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/BaseTestApply.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/ClassType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/Classes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/CustomerStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/Function.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/InfoSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/QuotaApply.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/ResumeApply.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/domain/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/exception/DaoException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/filter/CheckCustomerLoginFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/filter/PrivilegeFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/filter/SetCharacterEncodingFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/service/ApplyService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/service/ConfigService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/service/CustomerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/service/PrivilegeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/service/impl/ApplyServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/service/impl/ConfigServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/service/impl/CustomerServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/service/impl/PrivilegeServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/test/Base64Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/test/CustomerDaoImplTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/util/C3P0Util.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/util/SendMail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/util/WebUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/web/controller/ApplyServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/web/controller/ConfigServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/web/controller/LoginServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/web/controller/PrivilegeServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/com/lxk/web/controller/ProcessServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OA_RegisterSystem/src/java/number.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/bean/RespBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/bean/RespBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/bean/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/bean/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/bean/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/controller/LoginRegController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/controller/LoginRegController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/mapper/RolesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/mapper/RolesMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/utils/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/java/com/lxk/utils/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SVBlog/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/fonts/element-icons.6f0a763.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/fonts/fontawesome-webfont.674f50d.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/fonts/fontawesome-webfont.af7ae50.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/fonts/fontawesome-webfont.b06871f.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/fonts/fontawesome-webfont.fee66e7.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/fonts/fontello.068ca2b.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/fonts/fontello.e73a064.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/img/fontawesome-webfont.912ec66.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/img/fontello.9354499.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/js/app.68f5c35407ca9cd40d8b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/js/app.68f5c35407ca9cd40d8b.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/js/manifest.fc113b1d276302e2cab1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/js/manifest.fc113b1d276302e2cab1.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/js/vendor.dd31c3932b33cfeec940.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SVBlog/src/main/resources/static/static/js/vendor.dd31c3932b33cfeec940.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/Application.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/config/CORSConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/config/PaginationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/config/PaginationUtil.java" afterDir="false" />
@@ -125,7 +35,9 @@
       <change beforePath="$PROJECT_DIR$/../SpringBoot_Test/src/main/resource/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Test/src/main/resource/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringBoot_Test/src/main/resource/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Test/src/main/resource/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringImplement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringImplement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringTaskTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringTaskTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringImplement/src/main/java/com/lxk/spring/servlet/MyDispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringImplement/src/main/java/com/lxk/spring/servlet/MyDispatcherServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringImplement/src/main/java/com/lxk/testmyspring/action/DemoAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringImplement/src/main/java/com/lxk/testmyspring/action/DemoAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringImplement/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringImplement/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebTest/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebTest/src/com/lxk/ChatSystem/bean/User.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebTest/src/com/lxk/ChatSystem/dao/UserDao.java" beforeDir="false" />
@@ -145,7 +57,6 @@
       <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/config/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/src/components/card/CardMe.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-app/src/components/card/CardMe.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../crawler-autohome/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crawler-autohome/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day4_10_Thread/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_10_Thread/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/bean01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/bean01.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/dao/UserDaoImpl.java" afterDir="false" />
@@ -153,26 +64,21 @@
       <change beforePath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/test/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/test/Test01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/test/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/test/Test02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../face/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../face/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springday01/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springday01/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springday01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springday01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DNA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DNA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fib.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n个数出现超过一半的数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/n个数出现超过一半的数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/删数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/删数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/反转字符串.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/反转字符串.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/大数相加.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/大数相加.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/子串判断.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/子串判断.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/尼科彻斯.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/尼科彻斯.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/最小公倍数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/最小公倍数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/最小的K个数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/最小的K个数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/火车进站.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/火车进站.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/百万富翁问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/百万富翁问题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/组个最小数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/组个最小数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/每日一题/解密.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/每日一题/解密.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IFFF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IFFF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/偶串.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/偶串.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/守形数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/守形数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/密码验证.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/密码验证.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/快到碗里来.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/快到碗里来.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/说反话.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/说反话.java" afterDir="false" />
+    </list>
+    <list id="822472e0-7c02-46e6-9123-006b7c771d34" name="fun" comment="">
+      <change beforePath="$PROJECT_DIR$/src/数字之和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数字之和.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -183,50 +89,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/火车进站.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/子串判断.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/反转字符串.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/兔子.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/解密.java">
+        <entry file="file://$PROJECT_DIR$/src/IFFF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+            <state relative-caret-position="189">
+              <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -282,14 +149,23 @@
         <option value="$PROJECT_DIR$/src/反转字符串.java" />
         <option value="$PROJECT_DIR$/src/兔子.java" />
         <option value="$PROJECT_DIR$/src/解密.java" />
+        <option value="$PROJECT_DIR$/src/偶串.java" />
+        <option value="$PROJECT_DIR$/src/快到碗里来.java" />
+        <option value="$PROJECT_DIR$/src/数字之和.java" />
+        <option value="$PROJECT_DIR$/src/守形数.java" />
+        <option value="$PROJECT_DIR$/src/密码验证.java" />
+        <option value="$PROJECT_DIR$/src/说反话.java" />
+        <option value="$PROJECT_DIR$/src/TTTT.java" />
+        <option value="$PROJECT_DIR$/src/tt.java" />
+        <option value="$PROJECT_DIR$/src/Testtt.java" />
+        <option value="$PROJECT_DIR$/src/IFFF.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="114" />
-    <option name="y" value="52" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="55" />
+    <option name="width" value="1225" />
+    <option name="height" value="742" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -299,6 +175,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -306,23 +184,16 @@
               <item name="每日一题" type="b2602c69:ProjectViewProjectNode" />
               <item name="每日一题" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="每日一题" type="b2602c69:ProjectViewProjectNode" />
-              <item name="每日一题" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560430462332" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565960309182" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
@@ -338,16 +209,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.解密">
+  <component name="RunManager" selected="Application.IFFF">
     <configuration name="成绩排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="成绩排序" />
-      <module name="每日一题" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="解密" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="解密" />
       <module name="每日一题" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -360,15 +224,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fib" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fib" />
+    <configuration name="IFFF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IFFF" />
       <module name="每日一题" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test4" />
+    <configuration name="Testtt (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Testtt" />
+      <module name="每日一题" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testtt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lxk.Testtt" />
+      <module name="每日一题" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lxk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="守形数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="守形数" />
+      <module name="每日一题" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="快到碗里来" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="快到碗里来" />
+      <module name="每日一题" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="数字之和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="数字之和" />
+      <module name="每日一题" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="偶串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="偶串" />
+      <module name="每日一题" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="解密" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="解密" />
       <module name="每日一题" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -395,13 +307,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="说反话" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="说反话" />
+      <module name="每日一题" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.解密" />
-        <item itemvalue="Application.成绩排序" />
-        <item itemvalue="Application.Test4" />
+        <item itemvalue="Application.IFFF" />
+        <item itemvalue="Application.Testtt (1)" />
+        <item itemvalue="Application.Testtt" />
         <item itemvalue="Application.DNA" />
-        <item itemvalue="Application.Fib" />
+        <item itemvalue="Application.成绩排序" />
       </list>
     </recent_temporary>
   </component>
@@ -411,6 +330,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b3c4cea6-358a-4716-b6de-587a49d50ff7" name="Default Changelist" comment="" />
+      <changelist id="822472e0-7c02-46e6-9123-006b7c771d34" name="fun" comment="" />
       <created>1558429029272</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -431,17 +351,28 @@
       <workItem from="1560217018487" duration="7643000" />
       <workItem from="1560317600002" duration="1905000" />
       <workItem from="1560427662852" duration="3159000" />
+      <workItem from="1560941744247" duration="1746000" />
+      <workItem from="1562224524142" duration="1973000" />
+      <workItem from="1562390419257" duration="2863000" />
+      <workItem from="1562581798079" duration="2501000" />
+      <workItem from="1563539490764" duration="9000" />
+      <workItem from="1565092747789" duration="1171000" />
+      <workItem from="1565100902298" duration="30000" />
+      <workItem from="1565508948064" duration="1203000" />
+      <workItem from="1565950965298" duration="2738000" />
+      <workItem from="1566487204011" duration="24000" />
+      <workItem from="1581686237088" duration="325000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53745000" />
+    <option name="totallyTimeSpent" value="68328000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="55" y="0" width="1225" height="742" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988864" visible="true" weight="0.2065053" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988864" visible="true" weight="0.22918455" />
       <window_info id="Structure" order="1" sideWeight="0.5011136" side_tool="true" weight="0.20045386" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -451,17 +382,17 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27697262" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993559" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2824302" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32850242" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.24420401" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32850242" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -662,24 +593,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/兔子.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/反转字符串.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/兔子.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/解密.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+        <state relative-caret-position="405">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/偶串.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/快到碗里来.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数字之和.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/守形数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/密码验证.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/说反话.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/判断交叉字符串.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Testtt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IFFF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

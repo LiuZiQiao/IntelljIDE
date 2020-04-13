@@ -1,4 +1,4 @@
-package com.LibraryManageInfo.www.entitys;
+package com.book.domain;
 
 import lombok.Data;
 

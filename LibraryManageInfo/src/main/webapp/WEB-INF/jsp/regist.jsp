@@ -27,7 +27,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
      ${regist_error}
    <fieldset style="width: 300px;">
 		<legend style="">用户注册</legend>
-   		<form action="user/regist" method="post">
+   		<form action="/regist" method="post">
    			用户名称:<input name="username"><br/>
    			用户口令:<input type="password" name="password"><br/>
    			<span style="margin-left: -41px;">用户性别:</span>
@@ -40,7 +40,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
    			<input type="submit" value="注册">&nbsp;&nbsp;&nbsp;&nbsp;
    			<input type="reset" value="重置">
    		</form>
-   		已有账号?请点击&nbsp;&nbsp;<a href='user/login_page'>登录</a>
+   		已有账号?请点击&nbsp;&nbsp;<a href='/login_page'>登录</a>
    	</fieldset>
    	</center>
   </body>

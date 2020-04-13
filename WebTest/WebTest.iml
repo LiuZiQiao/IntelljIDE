@@ -21,6 +21,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="TomEE 9.0.4" level="application_server_libraries" />
+    <orderEntry type="library" name="com.huawei.gauss.jdbc.ZenithDriver-GaussDB_100_1.0.0.B019" level="project" />
+    <orderEntry type="library" name="servlet-api" level="project" />
   </component>
 </module>

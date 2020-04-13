@@ -116,44 +116,30 @@
 <div class="panel panel-default" style="width: 90%;margin-left: 5%">
     <div class="panel-heading" style="background-color: #fff">
         <h3 class="panel-title">
-            全部图书
+            图书到货
         </h3>
     </div>
     <div class="panel-body">
         <table class="table table-hover">
             <thead>
             <tr>
-                <th>书名</th>
-                <th>作者</th>
-                <th>出版社</th>
-                <th>ISBN</th>
-                <th>价格</th>
-                <th>借阅</th>
-                <th>归还</th>
-                <th>库存</th>
-                <th>详情</th>
-                <th>编辑</th>
-                <th>删除</th>
+                <th>订购号</th>
+                <th>实到价格</th>
+                <th>实到册数</th>
+                <th>到货日期</th>
+                <th>经手人职工号</th>
+                <th>备注</th>
             </tr>
             </thead>
             <tbody>
             <c:forEach items="${books}" var="book">
             <tr>
-                <td><c:out value="${book.name}"></c:out></td>
-                <td><c:out value="${book.author}"></c:out></td>
-                <td><c:out value="${book.publish}"></c:out></td>
-                <td><c:out value="${book.isbn}"></c:out></td>
-                <td><c:out value="${book.price}"></c:out></td>
-<%--                <c:if test="${book.state==1}">--%>
-                    <td><a href="lendbook.html?bookId=<c:out value="${book.bookId}"></c:out>"><button type="button" class="btn btn-primary btn-xs">借阅</button></a></td>
-<%--                </c:if>--%>
-<%--                <c:if test="${book.state==0}">--%>
-                    <td><a href="returnbook.html?bookId=<c:out value="${book.bookId}"></c:out>"><button type="button" class="btn btn-primary btn-xs">归还</button></a></td>
-<%--                </c:if>--%>
-                <td><c:out value="${book.number}">库存</c:out></td>
-                <td><a href="bookdetail.html?bookId=<c:out value="${book.bookId}"></c:out>"><button type="button" class="btn btn-success btn-xs">详情</button></a></td>
-                <td><a href="updatebook.html?bookId=<c:out value="${book.bookId}"></c:out>"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>
-                <td><a href="deletebook.html?bookId=<c:out value="${book.bookId}"></c:out>"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
+                <td><c:out value="${book.DGH}"></c:out></td>
+                <td><c:out value="${book.SDJG}"></c:out></td>
+                <td><c:out value="${book.SDCS}"></c:out></td>
+                <td><c:out value="${book.DHRQ}"></c:out></td>
+                <td><c:out value="${book.JSRZGH}"></c:out></td>
+                <td><c:out value="${book.BZ}"></c:out></td>
             </tr>
             </c:forEach>
             </tbody>

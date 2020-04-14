@@ -18,7 +18,7 @@
 <nav  style="position:fixed;z-index: 999;width: 100%;background-color: #fff" class="navbar navbar-default" role="navigation" >
     <div class="container-fluid">
         <div class="navbar-header" style="margin-left: 8%;margin-right: 1%">
-            <a class="navbar-brand" href="admin_main.html">图书管理系统</a>
+            <a class="navbar-brand" href="/index">图书管理系统</a>
         </div>
         <div class="collapse navbar-collapse" >
             <ul class="nav navbar-nav navbar-left">
@@ -45,15 +45,15 @@
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="allreaders.html">全部期刊</a></li>
+                        <li><a href="/Journal_Info">全部期刊</a></li>
                         <li class="divider"></li>
-                        <li><a href="reader_add.html">期刊征订</a></li>
+                        <li><a href="/Journal_subscribe">期刊征订</a></li>
                         <li class="divider"></li>
-                        <li><a href="reader_add.html">期刊合订编目</a></li>
+                        <li><a href="/Journal_had_catalog">期刊合订编目</a></li>
                         <li class="divider"></li>
-                        <li><a href="reader_add.html">期刊借阅归还</a></li>
+                        <li><a href="/Journal_len_return">期刊借阅归还</a></li>
                         <li class="divider"></li>
-                        <li><a href="reader_add.html">期刊减少</a></li>
+                        <li><a href="/Journal_reduce">期刊减少</a></li>
                     </ul>
                 </li>
 

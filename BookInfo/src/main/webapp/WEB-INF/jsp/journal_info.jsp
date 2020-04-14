@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ page import="com.lxk.book.entitys.Book_Info" %>
+<%@ page import="com.lxk.book.entitys.Journal_Info" %>
 <html>
 <head>
     <title>全部图书</title>
@@ -18,7 +18,7 @@
 <nav  style="position:fixed;z-index: 999;width: 100%;background-color: #fff" class="navbar navbar-default" role="navigation" >
     <div class="container-fluid">
         <div class="navbar-header" style="margin-left: 8%;margin-right: 1%">
-            <a class="navbar-brand" href="/index">图书管理系统</a>
+            <a class="navbar-brand" href="index">图书管理系统</a>
         </div>
         <div class="collapse navbar-collapse" >
             <ul class="nav navbar-nav navbar-left">
@@ -106,74 +106,50 @@
 <div class="panel panel-default" style="width: 90%;margin-left: 5%">
     <div class="panel-heading">
         <h3 class="panel-title">
-            全部图书
+            期刊基本情况
         </h3>
     </div>
     <div class="panel-body">
         <table class="table table-hover">
             <thead>
             <tr>
-                <th>国书编号</th>
-                <th>图书条形码</th>
-                <th>正标题</th>
-                <th>并列标题</th>
-                <th>副标题</th>
-                <th>检索关键字</th>
-                <th>出版后</th>
-                <th>第一作者</th>
-                <th>其他作者</th>
-                <th>价格</th>
-                <th>文献类型码</th>
-                <th>装订按码</th>
+                <th>期刊编号</th>
+                <th>期刊条形码</th>
+                <th>期刊中文名称</th>
+                <th>期刊英文名称</th>
+                <th>出版号</th>
+                <th>编辑部</th>
+                <th>总编</th>
+                <th>单价</th>
+                <th>创刊年月</th>
+                <th>期号</th>
+                <th>总期号</th>
                 <th>分类号</th>
                 <th>中国语种码</th>
                 <th>语种码</th>
-                <th>开本</th>
-                <th>页数</th>
-                <th>版次</th>
-                <th>附件名称</th>
-                <th>丛书名称</th>
-                <th>丛书编者</th>
-                <th>出版社</th>
-                <th>出版社级别码</th>
-                <th>出版地</th>
-                <th>出版日期</th>
-                <th>发行单位</th>
-                <th>备注</th>
-                <th>图书状态码</th>
+                <th>期刊类别码</th>
+                <th>期刊状态码</th>
             </tr>
             </thead>
             <tbody>
-            <c:forEach items="${books_info}" var="alog">
+            <c:forEach items="${journalInfos}" var="alog">
                 <tr>
-                    <td><c:out value="${alog.tsbh}"></c:out></td>
-                    <td><c:out value="${alog.tstxm}"></c:out></td>
-                    <td><c:out value="${alog.zbt}"></c:out></td>
-                    <td><c:out value="${alog.blbt}"></c:out></td>
-                    <td><c:out value="${alog.fbt}"></c:out></td>
-                    <td><c:out value="${alog.jsgjz}"></c:out></td>
+                    <td><c:out value="${alog.qkbh}"></c:out></td>
+                    <td><c:out value="${alog.qktxm}"></c:out></td>
+                    <td><c:out value="${alog.qkzwmc}"></c:out></td>
+                    <td><c:out value="${alog.qkywmc}"></c:out></td>
                     <td><c:out value="${alog.cbh}"></c:out></td>
-                    <td><c:out value="${alog.dyzz}"></c:out></td>
-                    <td><c:out value="${alog.qtzz}"></c:out></td>
-                    <td><c:out value="${alog.jg}"></c:out></td>
-                    <td><c:out value="${alog.wxlxm}"></c:out></td>
-                    <td><c:out value="${alog.zdm}"></c:out></td>
+                    <td><c:out value="${alog.bjb}"></c:out></td>
+                    <td><c:out value="${alog.zb}"></c:out></td>
+                    <td><c:out value="${alog.dj}"></c:out></td>
+                    <td><c:out value="${alog.ckny}"></c:out></td>
+                    <td><c:out value="${alog.qh}"></c:out></td>
+                    <td><c:out value="${alog.zqh}"></c:out></td>
                     <td><c:out value="${alog.flh}"></c:out></td>
                     <td><c:out value="${alog.zgyzm}"></c:out></td>
                     <td><c:out value="${alog.yzm}"></c:out></td>
-                    <td><c:out value="${alog.kb}"></c:out></td>
-                    <td><c:out value="${alog.ys}"></c:out></td>
-                    <td><c:out value="${alog.bc}"></c:out></td>
-                    <td><c:out value="${alog.fjmc}"></c:out></td>
-                    <td><c:out value="${alog.csmc}"></c:out></td>
-                    <td><c:out value="${alog.csbz}"></c:out></td>
-                    <td><c:out value="${alog.cbs}"></c:out></td>
-                    <td><c:out value="${alog.cbsjbm}"></c:out></td>
-                    <td><c:out value="${alog.cbd}"></c:out></td>
-                    <td><c:out value="${alog.cdrq}"></c:out></td>
-                    <td><c:out value="${alog.fxdw}"></c:out></td>
-                    <td><c:out value="${alog.bz}"></c:out></td>
-                    <td><c:out value="${alog.tsztm}"></c:out></td>
+                    <td><c:out value="${alog.qklbm}"></c:out></td>
+                    <td><c:out value="${alog.qkztm}"></c:out></td>
                 </tr>
             </c:forEach>
             </tbody>

@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@page import="com.lxk.book.entitys.Book_order" %>
+<%@page import="com.lxk.book.entitys.Journal_len_return" %>
 <html>
 <head>
     <title>全部图书信息</title>
@@ -71,66 +71,49 @@
     </div>
 </nav>
 
-<!-- 模态框（Modal） -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                    &times;
-                </button>
-                <h4 class="modal-title" id="myModalLabel">
-                    温馨提示
-                </h4>
-            </div>
-            <div class="modal-body">
-                使用结束后请安全退出。
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-dismiss="modal">知道了
-                </button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal -->
-</div>
-<c:if test="${!empty login}">
-    <script>
-        $(function () {
-            $("#myModal").modal({
-                show: true
-            })
-        })
-    </script>
-</c:if>
 
+<div style="position: relative;top: 10%">
+<c:if test="${!empty succ}">
+    <div class="alert alert-success alert-dismissable">
+        <button type="button" class="close" data-dismiss="alert"
+                aria-hidden="true">
+            &times;
+        </button>
+        ${succ}
+    </div>
+</c:if>
+<c:if test="${!empty error}">
+    <div class="alert alert-danger alert-dismissable">
+        <button type="button" class="close" data-dismiss="alert"
+                aria-hidden="true">
+            &times;
+        </button>
+        ${error}
+    </div>
+</c:if>
+</div>
 <div class="panel panel-default" style="width: 90%;margin-left: 5%">
     <div class="panel-heading" style="background-color: #fff">
         <h3 class="panel-title">
-            图书订购
+            期刊借阅归还
         </h3>
     </div>
     <div class="panel-body">
         <table class="table table-hover">
             <thead>
             <tr>
-                <th>订购号</th>
-                <th>预定价格</th>
-                <th>预定册数</th>
-                <th>预定日期</th>
-                <th>获得方式码</th>
-                <th>征订人职工号</th>
+                <th>借阅日期</th>
+                <th>借阅人</th>
+                <th>归还日期</th>
                 <th>备注</th>
             </tr>
             </thead>
             <tbody>
-            <c:forEach items="${books}" var="book">
+            <c:forEach items="${journal_len_return}" var="book">
             <tr>
-                <td><c:out value="${book.dgh}"></c:out></td>
-                <td><c:out value="${book.ydjg}"></c:out></td>
-                <td><c:out value="${book.ydcs}"></c:out></td>
-                <td><c:out value="${book.ydrq}"></c:out></td>
-                <td><c:out value="${book.hdfsm}"></c:out></td>
-                <td><c:out value="${book.zdrzgh}"></c:out></td>
+                <td><c:out value="${book.jyrq}"></c:out></td>
+                <td><c:out value="${book.jyr}"></c:out></td>
+                <td><c:out value="${book.ghrq}"></c:out></td>
                 <td><c:out value="${book.bz}"></c:out></td>
             </tr>
             </c:forEach>

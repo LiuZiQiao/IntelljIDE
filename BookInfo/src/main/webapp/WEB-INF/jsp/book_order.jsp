@@ -103,7 +103,7 @@
     </script>
 </c:if>
 
-<div class="panel panel-default" style="width: 90%;margin-left: 5%">
+<div class="panel panel-default" style="position: relative;top: 80px ;width: 90%;margin-left: 5%">
     <div class="panel-heading" style="background-color: #fff">
         <h3 class="panel-title">
             图书订购
@@ -132,6 +132,9 @@
                 <td><c:out value="${book.hdfsm}"></c:out></td>
                 <td><c:out value="${book.zdrzgh}"></c:out></td>
                 <td><c:out value="${book.bz}"></c:out></td>
+                <td><a href="updatebook_order.html?bookId=<c:out value="${book.dgh}"></c:out>"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>
+                <td><a href="addbook_order.html"><button type="button" class="btn btn-success btn-xs">增加</button></a></td>
+                <td><a href="deletebook_order.html?bookId=<c:out value="${book.dgh}"></c:out>"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
             </tr>
             </c:forEach>
             </tbody>

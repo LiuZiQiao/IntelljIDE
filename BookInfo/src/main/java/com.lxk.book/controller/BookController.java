@@ -71,4 +71,110 @@ public class BookController {
         modelAndView.addObject("books",books);
         return modelAndView;
     }
+
+    @RequestMapping(value = "/addbook.html")
+    public String book_add(){
+        return "book_add";
+    }
+
+    @RequestMapping(value = "/book_add_do.html")
+    public ModelAndView book_add_do(Book_Info bookInfo){
+        int res = bookService.addBook(bookInfo);
+        ModelAndView modelAndView = new ModelAndView("book_info");
+        if (res>0){
+            ModelAndView modelAndView1 = new ModelAndView("book_add");
+            return modelAndView1;
+        }
+        System.out.println("增加失败--->"+bookInfo);
+        return modelAndView;
+    }
+
+    @RequestMapping(value = "deletebook.html")
+    public ModelAndView deletebook(String bookId){
+        int res = bookService.deletebook(bookId);
+        if (res>0){
+            System.out.println("删除成功--->"+bookId);
+        }
+        ArrayList<Book_Info> books_info=bookService.book_info();
+        ModelAndView modelAndView=new ModelAndView("book_info");
+        modelAndView.addObject("books_info",books_info);
+        return modelAndView;
+    }
+
+    @RequestMapping(value = "updatebook.html")
+    public ModelAndView updatebook(String bookId){
+        Book_Info books = bookService.getBook(bookId);
+        System.out.println("edit books--->"+books);
+        ModelAndView modelAndView=new ModelAndView("book_edit");
+        modelAndView.addObject("books",books);
+        return modelAndView;
+    }
+
+    @RequestMapping(value = "book_edit_do.html")
+    public ModelAndView doUpdateBook(Book_Info bookInfo){
+        System.out.println("update bookInfo--->"+bookInfo);
+        int ret = bookService.deletebook(bookInfo.getTsbh());
+        ModelAndView modelAndView = new ModelAndView("book_info");
+        if (ret>0) {
+            int res = bookService.updateBook(bookInfo);
+            if (res>0){
+                ArrayList<Book_Info> books = bookService.book_info();
+                modelAndView.addObject("books",books);
+                return modelAndView;
+            }
+        }
+        return modelAndView;
+    }
+
+    //book_order
+    @RequestMapping(value = "updatebook_order.html")
+    public ModelAndView updatebook_order(String bookId){
+        Book_order books = bookService.getBook_order(bookId);
+        System.out.println("edit bookorder--->"+books);
+        ModelAndView modelAndView=new ModelAndView("bookorder_edit");
+        modelAndView.addObject("books",books);
+        return modelAndView;
+    }
+
+    //修改，先删后插入数据
+    @RequestMapping(value = "doaupdatebook_order.html")
+    public ModelAndView doUpdateBook_order(Book_order book_order){
+//        System.out.println("update bookInfo--->"+bookInfo);
+        int ret = bookService.deletebookorder(book_order.getDgh());
+        ModelAndView modelAndView = new ModelAndView("book_order");
+        if (ret>0) {
+            int res = bookService.updateBookorder(book_order);
+            if (res>0){
+                ArrayList<Book_Info> books = bookService.book_info();
+                modelAndView.addObject("books",books);
+                return modelAndView;
+            }
+        }
+        return modelAndView;
+    }
+
+    @RequestMapping(value = "addbook_order.html")
+    public String bookorder_add(){
+        return "bookorder_add";
+    }
+
+    @RequestMapping(value = "doaddbook_order")
+    public ModelAndView addbook_order(Book_order book_order){
+        int ret = bookService.addBookOrder(book_order);
+        ModelAndView modelAndView = new ModelAndView("book_order");
+        return modelAndView;
+    }
+//    deletebook_order.html
+    @RequestMapping(value = "deletebook_order.html")
+    public ModelAndView deletebook_order(String dgh){
+        int ret = bookService.deletebookorder(dgh);
+        ModelAndView modelAndView = new ModelAndView("book_order");
+        if (ret>0){
+            ArrayList<Book_Info> books = bookService.book_info();
+            modelAndView.addObject("books",books);
+            return modelAndView;
+        }
+        return modelAndView;
+    }
+
 }

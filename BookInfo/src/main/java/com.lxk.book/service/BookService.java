@@ -15,6 +15,18 @@ public class BookService {
     @Autowired
     private BookDao bookDao;
 
+    public int updateBook(Book_Info bookInfo){
+        return bookDao.updateBookInfo(bookInfo);
+    }
+
+    public int deleteBook(String tsbh){
+        return bookDao.deleteBookBytsbh(tsbh);
+    }
+
+    public Book_Info getBook(String tsbh){
+        return bookDao.getBook(tsbh);
+    }
+
     public ArrayList<ArrivedBook> arrived_books() {
             return bookDao.arrived_books();
     }
@@ -32,5 +44,31 @@ public class BookService {
     }
     public ArrayList<Book_reduce> book_reduce() {
         return bookDao.book_reduce();
+    }
+
+    public int addBook(Book_Info bookInfo) {
+        return bookDao.addBook(bookInfo);
+    }
+
+    public int deletebook(String bookId) {
+        return bookDao.deleteBookBytsbh(bookId);
+    }
+
+
+    //book_order
+    public int deletebookorder(String dgh) {
+        return bookDao.deleteBookOrderBydgh(dgh);
+    }
+
+    public int updateBookorder(Book_order book_order) {
+        return bookDao.updateBookOrder(book_order);
+    }
+
+    public Book_order getBook_order(String dgh){
+        return bookDao.getBookOrder(dgh);
+    }
+
+    public int addBookOrder(Book_order book_order){
+        return bookDao.addBookOrder(book_order);
     }
 }

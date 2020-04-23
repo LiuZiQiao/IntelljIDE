@@ -103,28 +103,32 @@
         })
     </script>
 </c:if>
-<div class="panel panel-default" style="width: 90%;margin-left: 5%">
+
+<%--<div class="panel panel-default" style="width: 90%;margin-left: 5%">--%>
+<div class="panel panel-default" style="position: relative;top: 80px ;width: 90%;margin-left: 5%">
     <div class="panel-heading">
         <h3 class="panel-title">
-            全部图书
+                全部图书
         </h3>
+
     </div>
     <div class="panel-body">
         <table class="table table-hover">
             <thead>
             <tr>
-                <th>国书编号</th>
+                <th></th>
+                <th>图书编号</th>
                 <th>图书条形码</th>
                 <th>正标题</th>
                 <th>并列标题</th>
                 <th>副标题</th>
                 <th>检索关键字</th>
-                <th>出版后</th>
+                <th>出版号</th>
                 <th>第一作者</th>
                 <th>其他作者</th>
                 <th>价格</th>
                 <th>文献类型码</th>
-                <th>装订按码</th>
+                <th>装订码</th>
                 <th>分类号</th>
                 <th>中国语种码</th>
                 <th>语种码</th>
@@ -145,7 +149,7 @@
             </thead>
             <tbody>
             <c:forEach items="${books_info}" var="alog">
-                <tr>
+                <td>
                     <td><c:out value="${alog.tsbh}"></c:out></td>
                     <td><c:out value="${alog.tstxm}"></c:out></td>
                     <td><c:out value="${alog.zbt}"></c:out></td>
@@ -170,15 +174,19 @@
                     <td><c:out value="${alog.cbs}"></c:out></td>
                     <td><c:out value="${alog.cbsjbm}"></c:out></td>
                     <td><c:out value="${alog.cbd}"></c:out></td>
-                    <td><c:out value="${alog.cdrq}"></c:out></td>
+                    <td><c:out value="${alog.cbrq}"></c:out></td>
                     <td><c:out value="${alog.fxdw}"></c:out></td>
                     <td><c:out value="${alog.bz}"></c:out></td>
                     <td><c:out value="${alog.tsztm}"></c:out></td>
+                    <td><a href="updatebook.html?bookId=<c:out value="${alog.tsbh}"></c:out>"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>
+                    <td><a href="addbook.html"><button type="button" class="btn btn-success btn-xs">增加</button></a></td>
+                    <td><a href="deletebook.html?bookId=<c:out value="${alog.tsbh}"></c:out>"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
                 </tr>
             </c:forEach>
             </tbody>
         </table>
     </div>
+
 </div>
 
 </body>

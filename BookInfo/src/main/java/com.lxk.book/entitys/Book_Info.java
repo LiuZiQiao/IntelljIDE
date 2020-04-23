@@ -33,7 +33,7 @@ public class Book_Info {
     private String cbs;
     private String cbsjbm;
     private String cbd;
-    private String cdrq;
+    private String cbrq;
     private String fxdw;
     private String bz;
     private String tsztm;

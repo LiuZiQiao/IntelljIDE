@@ -26,6 +26,4 @@ public class Journal_Info {
     private int yzm;
     private int qklbm;
     private int qkztm;
-
-
 }

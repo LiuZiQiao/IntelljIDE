@@ -103,7 +103,7 @@
         })
     </script>
 </c:if>
-<div class="panel panel-default" style="width: 90%;margin-left: 5%">
+<div class="panel panel-default" style="position: relative;top: 80px ;width: 90%;margin-left: 5%">
     <div class="panel-heading">
         <h3 class="panel-title">
             期刊基本情况
@@ -150,6 +150,9 @@
                     <td><c:out value="${alog.yzm}"></c:out></td>
                     <td><c:out value="${alog.qklbm}"></c:out></td>
                     <td><c:out value="${alog.qkztm}"></c:out></td>
+                    <td><a href="/editJournal_info.html?bookId=<c:out value="${alog.qkbh}"></c:out>"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>
+                    <td><a href="/addJournal_Info.html"><button type="button" class="btn btn-success btn-xs">增加</button></a></td>
+                    <td><a href="/deleteJournal_info?qkbh=<c:out value="${alog.qkbh}"></c:out>"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
                 </tr>
             </c:forEach>
             </tbody>

@@ -1,6 +1,7 @@
 package com.lxk.book.dao;
 
 import com.lxk.book.entitys.Admin;
+import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
@@ -19,5 +20,9 @@ public interface AdminDao {
     @Select("select *from admin where adminId=#{adminId} and password=#{password}")
     public Admin login(Admin admin);
 
+    @Select("select *from admin where adminId=#{adminId}")
+    boolean getAdmin(int adminId);
 
+    @Delete("delete from admin where adminId=#{adminId}")
+    public boolean delete(int adminId);
 }

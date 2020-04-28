@@ -115,6 +115,9 @@
                 <td><c:out value="${book.jsyy}"></c:out></td>
                 <td><c:out value="${book.jsjg}"></c:out></td>
                 <td><c:out value="${book.jsrzgh}"></c:out></td>
+                <td><a href="/editBook_reduce.html?bookId=<c:out value="${book.jsrq}"></c:out>"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>
+                <td><a href="/addbookreduce.html"><button type="button" class="btn btn-success btn-xs">增加</button></a></td>
+                <td><a href="/deleteBook_reduce.html?bookId=<c:out value="${book.jsrq}"></c:out>"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
             </tr>
             </c:forEach>
             </tbody>

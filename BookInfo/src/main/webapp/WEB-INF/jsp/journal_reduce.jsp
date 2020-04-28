@@ -92,7 +92,8 @@
     </div>
 </c:if>
 </div>
-<div class="panel panel-default" style="width: 90%;margin-left: 5%">
+<div class="panel panel-default" style="position: relative;top: 80px ;width: 90%;margin-left: 5%">
+
     <div class="panel-heading" style="background-color: #fff">
         <h3 class="panel-title">
             期刊减少
@@ -105,7 +106,7 @@
                 <th>减少日期</th>
                 <th>减少原因</th>
                 <th>减少结果</th>
-                <th>经办人职工号</th>
+                <th>经手人职工号</th>
             </tr>
             </thead>
             <tbody>
@@ -115,6 +116,9 @@
                 <td><c:out value="${book.jsyy}"></c:out></td>
                 <td><c:out value="${book.jsjg}"></c:out></td>
                 <td><c:out value="${book.jsrzgh}"></c:out></td>
+                <td><a href="/editJournal_reduce.html?jsrq=<c:out value="${book.jsrq}"></c:out>"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>
+                <td><a href="/addJournal_reduce.html"><button type="button" class="btn btn-success btn-xs">增加</button></a></td>
+                <td><a href="/deleteJournal_reduce?jsrq=<c:out value="${book.jsrq}"></c:out>"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
             </tr>
             </c:forEach>
             </tbody>

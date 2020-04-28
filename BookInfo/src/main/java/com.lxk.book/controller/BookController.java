@@ -126,7 +126,9 @@ public class BookController {
         return modelAndView;
     }
 
-    //book_order
+    /*
+     *  //book_order
+     */
     @RequestMapping(value = "updatebook_order.html")
     public ModelAndView updatebook_order(String bookId){
         Book_order books = bookService.getBook_order(bookId);
@@ -145,7 +147,7 @@ public class BookController {
         if (ret>0) {
             int res = bookService.updateBookorder(book_order);
             if (res>0){
-                ArrayList<Book_Info> books = bookService.book_info();
+                ArrayList<Book_order> books = bookService.book_order();
                 modelAndView.addObject("books",books);
                 return modelAndView;
             }
@@ -162,6 +164,10 @@ public class BookController {
     public ModelAndView addbook_order(Book_order book_order){
         int ret = bookService.addBookOrder(book_order);
         ModelAndView modelAndView = new ModelAndView("book_order");
+        if (ret>0){
+            ArrayList<Book_order> books = bookService.book_order();
+            modelAndView.addObject("books",books);
+        }
         return modelAndView;
     }
 //    deletebook_order.html
@@ -170,9 +176,157 @@ public class BookController {
         int ret = bookService.deletebookorder(dgh);
         ModelAndView modelAndView = new ModelAndView("book_order");
         if (ret>0){
-            ArrayList<Book_Info> books = bookService.book_info();
+            ArrayList<Book_order> books = bookService.book_order();
             modelAndView.addObject("books",books);
             return modelAndView;
+        }
+        return modelAndView;
+    }
+
+    // arrivedbook
+    @RequestMapping(value = "deletebook_arrived.html")
+    public ModelAndView deletebook_arrived(String bookId){
+        int ret = bookService.deletebook_arived(bookId);
+        ModelAndView modelAndView = new ModelAndView("arrived_books");
+        if (ret>0){
+            ArrayList<ArrivedBook> books = bookService.arrived_books();
+            modelAndView.addObject("books",books);
+            return modelAndView;
+        }
+        return modelAndView;
+    }
+    @RequestMapping(value = "updatebook_arrived.html")
+    public ModelAndView updatebook_arrived(String bookId){
+        ArrivedBook books = bookService.getArrivedBook(bookId);
+        System.out.println("edit bookarrived--->"+books);
+        ModelAndView modelAndView=new ModelAndView("bookarrived_edit");
+        modelAndView.addObject("books",books);
+        return modelAndView;
+    }
+    @RequestMapping(value = "dodoupdatebook_arrived")
+    public ModelAndView doupdatebook_arrived(ArrivedBook arrivedBook){
+        System.out.println("doupdatebook_arrived--->"+arrivedBook);
+        int ret = bookService.deletebook_arived(arrivedBook.getDgh());
+        ModelAndView modelAndView = new ModelAndView("arrived_books");
+        if (ret>0) {
+            int res = bookService.updateBookArrived(arrivedBook);
+            if (res>0){
+                ArrayList<ArrivedBook> books = bookService.arrived_books();
+                modelAndView.addObject("books",books);
+                return modelAndView;
+            }
+        }
+        return modelAndView;
+    }
+    @RequestMapping(value = "addbookarrived.html")
+    public String addbookarrived(){
+        return "bookarrived_add";
+    }
+
+    @RequestMapping(value = "addbookarrived")
+    public ModelAndView addbookarrived(ArrivedBook arrivedBook){
+        int ret = bookService.addbook_arrived(arrivedBook);
+        ModelAndView modelAndView = new ModelAndView("arrived_books");
+        return modelAndView;
+    }
+
+    // book_catalog
+    @RequestMapping(value = "deleteBook_catalog.html")
+    public ModelAndView deeteBook_catalog(String bookId){
+        int ret =  bookService.deletebook_catalog(bookId);
+        ModelAndView modelAndView = new ModelAndView("book_catalog");
+        if (ret>0){
+            ArrayList<Book_catalog> books = bookService.book_catalog();
+            modelAndView.addObject("books",books);
+            return modelAndView;
+        }
+        return modelAndView;
+    }
+
+    @RequestMapping(value = "editBook_catalog.html")
+    public ModelAndView updateBook_catalog(String bookId){
+        Book_catalog book_catalog = bookService.getBook_catalog(bookId);
+        ModelAndView modelAndView = new ModelAndView("bookcatalog_edit");
+        modelAndView.addObject("books",book_catalog);
+        return modelAndView;
+    }
+
+    @RequestMapping(value = "doupdtebook_catalog")
+    public ModelAndView doupdtebook_catalog(Book_catalog book_catalog){
+        System.out.println("doupdatebook_catalog--->" + book_catalog);
+        int res = bookService.deletebook_catalog(book_catalog.getPjh());
+        ModelAndView modelAndView = new ModelAndView("book_catalog");
+        if (res>0){
+            int ret = bookService.addbook_catalog(book_catalog);
+            if (ret>0){
+                ArrayList<Book_catalog> book_catalogs = bookService.book_catalog();
+                modelAndView.addObject("books",book_catalogs);
+            }
+        }
+        return modelAndView;
+    }
+
+    @RequestMapping(value = "addbookcatalog.html")
+    public String addbookcatalog(){
+        return "bookcatalog_add";
+    }
+    @RequestMapping(value = "addBookcatalog")
+    public ModelAndView addBookcatalog(Book_catalog book_catalog){
+        System.out.println("addbook_catalog--->"+book_catalog);
+        ModelAndView modelAndView = new ModelAndView("book_catalog");
+        int ret = bookService.addbook_catalog(book_catalog);
+        return modelAndView;
+    }
+
+
+    // book_reduce
+    @RequestMapping(value = "deleteBook_reduce.html")
+    public ModelAndView deeteBook_reduce(String bookId){
+        int ret =  bookService.deletebook_reduce(bookId);
+        ModelAndView modelAndView = new ModelAndView("book_reduce");
+        if (ret>0){
+            ArrayList<Book_reduce> books = bookService.book_reduce();
+            modelAndView.addObject("books",books);
+        }
+        return modelAndView;
+    }
+
+    @RequestMapping(value = "editBook_reduce.html")
+    public ModelAndView updateBook_reduce(String bookId){
+        Book_reduce book_reduce = bookService.getBook_reduce(bookId);
+        System.out.println("editBookReduce--->"+book_reduce);
+        ModelAndView modelAndView = new ModelAndView("bookreduce_edit");
+        modelAndView.addObject("books",book_reduce);
+        return modelAndView;
+    }
+
+    @RequestMapping(value = "doupdtebook_reduce")
+    public ModelAndView doupdtebook_catalog(Book_reduce book_reduce){
+        System.out.println("doupdatebook_reduce--->" + book_reduce);
+        int res = bookService.deletebook_reduce(book_reduce.getJsrq());
+        ModelAndView modelAndView = new ModelAndView("book_reduce");
+        if (res>0){
+            int ret = bookService.addbook_reduce(book_reduce);
+            if (ret>0){
+                ArrayList<Book_reduce> book_reduces = bookService.book_reduce();
+                modelAndView.addObject("books",book_reduces);
+            }
+        }
+        return modelAndView;
+    }
+
+    @RequestMapping(value = "addbookreduce.html")
+    public String addbookreduce(){
+        return "bookreduce_add";
+    }
+    @RequestMapping(value = "addBookreduce")
+    public ModelAndView addBookreduce(Book_reduce book_reduce){
+        System.out.println("addbook_reduce--->"+book_reduce);
+        ModelAndView modelAndView = new ModelAndView("book_reduce");
+        int ret = bookService.addbook_reduce(book_reduce);
+        if (ret>0){
+            ArrayList<Book_reduce> book_reduces = bookService.book_reduce();
+            modelAndView.addObject("books",book_reduces);
         }
         return modelAndView;
     }

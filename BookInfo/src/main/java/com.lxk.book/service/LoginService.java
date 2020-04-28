@@ -20,4 +20,13 @@ public class LoginService {
         return adminDao.login(admin);
     }
 
+    public int repasswd(Admin admin) {
+        if (adminDao.getAdmin(admin.getAdminId())){
+            if(adminDao.delete(admin.getAdminId())){
+                int ret = adminDao.regist(admin);
+                return ret;
+            }
+        }
+        return 0;
+    }
 }

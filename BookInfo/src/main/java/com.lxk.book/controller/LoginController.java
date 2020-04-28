@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
@@ -37,7 +38,11 @@ public class LoginController {
         request.getSession().invalidate();
         return "login";
     }
-
+    @RequestMapping(value = {"/login.html"})
+    public String tLogin(HttpServletRequest request){
+        request.getSession().invalidate();
+        return "login";
+    }
     @RequestMapping(value = "/login",method = RequestMethod.POST)
     public @ResponseBody Object login(Admin admin, HttpServletRequest request, HttpSession session){
         LOG.info("login..."+admin);
@@ -84,8 +89,35 @@ public class LoginController {
             return new ModelAndView("index");
     }
 
+    @RequestMapping(value = "admin_repasswd.html")
+    public String repassword(HttpServletRequest request, HttpSession session) throws InterruptedException {
+        Admin admin = (Admin)request.getSession().getAttribute("admin");
+        if (admin!=null){
+            return "admin_repasswd";
+        }else{
+            request.setAttribute("error_msg","你还没有登陆，不能修改密码！");
+            Thread.sleep(5000);
+            return "login";
+        }
+    }
 
-
+    @RequestMapping(value = "admin_repasswd_do")
+    public String admin_repasswd_do(HttpServletRequest request,HttpSession session){
+        Admin admin = (Admin)request.getSession().getAttribute("admin");
+        if (admin!=null){
+            request.getParameter("oldPasswd");
+            String newPasswd = request.getParameter("newPasswd");
+            admin.setPassword(newPasswd);
+            int ret = loginService.repasswd(admin);
+            if (ret>0){
+                return "login";
+            }else{
+                return "index";
+            }
+        }else{
+            return "login";
+        }
+    }
     //配置404页面
      @RequestMapping("*")
      public String notFind(){

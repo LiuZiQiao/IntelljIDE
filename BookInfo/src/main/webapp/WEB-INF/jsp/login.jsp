@@ -175,13 +175,16 @@
     </ol>
     <div class="carousel-inner">
         <div class="item active">
-            <img src="${pageContext.request.contextPath}/static/images/82839-106.jpg" alt="第一张">
+<%--            <img src="${pageContext.request.contextPath}/static/images/82839-106.jpg" alt="第一张">--%>
+            <img src="${pageContext.request.contextPath}/static/images/11.png" alt="第一张">
         </div>
         <div class="item">
-            <img src="${pageContext.request.contextPath}/static/images/105905-106.jpg" alt="第二张">
+<%--            <img src="${pageContext.request.contextPath}/static/images/105905-106.jpg" alt="第二张">--%>
+            <img src="${pageContext.request.contextPath}/static/images/7.jpg" alt="第二张">
         </div>
         <div class="item">
-            <img src="${pageContext.request.contextPath}/static/images/296494-106.jpg" alt="第三张">
+<%--            <img src="${pageContext.request.contextPath}/static/images/296494-106.jpg" alt="第三张">--%>
+            <img src="${pageContext.request.contextPath}/static/images/14.png" alt="第三张">
         </div>
 
     </div>

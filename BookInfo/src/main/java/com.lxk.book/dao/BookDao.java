@@ -61,4 +61,33 @@ public interface BookDao {
 
     @Select("select *from book_order where dgh=#{dgh}")
     Book_order getBookOrder(String dgh);
+
+    //Bookrarrived
+    @Delete("delete from book_arrived where dgh=#{dgh}")
+    public int deletebook_arrived(String dgh);
+
+    @Insert("insert into book_arrived value(#{dgh},#{sdjg},#{sdcs},#{dhrq},#{jsrzgh},#{bz})")
+    public int addbook_arrived(ArrivedBook arrivedBook);
+
+    @Insert("insert into book_arrived value(#{dgh},#{sdjg},#{sdcs},#{dhrq},#{jsrzgh},#{bz})")
+    public int updatebook_arrived(ArrivedBook arrivedBook);
+
+    @Select("select *from book_arrived where dgh=#{dgh}")
+    public ArrivedBook getArrivedBook(String dgh);
+
+    //book_catalog
+    @Insert("insert into book_catalog value(#{pjh},#{jch},#{bmrq},#{gcd})")
+    public int addbook_catalog(Book_catalog book_catalog);
+    @Select("select *from book_catalog where pjh=#{pjh}")
+    public Book_catalog getBook_catalog(String pjh);
+    @Delete("delete from book_catalog where pjh=#{pjh}")
+    public int deleteBook_catalog(String pjh);
+
+    //book_reduce
+    @Insert("insert into book_reduce value(#{jsrq},#{jsyy},#{jsjg},#{jsrzgh})")
+    public int addbook_reduce(Book_reduce book_reduce);
+    @Select("select *from book_reduce where jsrq=#{jsrq}")
+    public Book_reduce getBook_reduce(String jsrq);
+    @Delete("delete from book_reduce where jsrq=#{jsrq}")
+    public int deleteBook_reduce(String jsrq);
 }

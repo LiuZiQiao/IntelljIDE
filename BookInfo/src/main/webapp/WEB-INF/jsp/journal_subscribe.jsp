@@ -92,7 +92,8 @@
     </div>
 </c:if>
 </div>
-<div class="panel panel-default" style="width: 90%;margin-left: 5%">
+<div class="panel panel-default" style="position: relative;top: 80px ;width: 90%;margin-left: 5%">
+
     <div class="panel-heading" style="background-color: #fff">
         <h3 class="panel-title">
             期刊征订情况
@@ -121,6 +122,9 @@
                 <td><c:out value="${book.hdfsm}"></c:out></td>
                 <td><c:out value="${book.zdrzgh}"></c:out></td>
                 <td><c:out value="${book.bz}"></c:out></td>
+                <td><a href="/editJournal_subscribe.html?qkdgh=<c:out value="${book.qkdgh}"></c:out>"><button type="button" class="btn btn-info btn-xs">编辑</button></a></td>
+                <td><a href="/addJournal_subscribe.html"><button type="button" class="btn btn-success btn-xs">增加</button></a></td>
+                <td><a href="/deleteJournal_subscribe?qkdgh=<c:out value="${book.qkdgh}"></c:out>"><button type="button" class="btn btn-danger btn-xs">删除</button></a></td>
             </tr>
             </c:forEach>
             </tbody>

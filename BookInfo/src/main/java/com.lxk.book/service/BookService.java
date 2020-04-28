@@ -71,4 +71,47 @@ public class BookService {
     public int addBookOrder(Book_order book_order){
         return bookDao.addBookOrder(book_order);
     }
+
+    //bookarrived
+    public int deletebook_arived(String dgh){
+        return bookDao.deletebook_arrived(dgh);
+    }
+    public int addbook_arrived(ArrivedBook arrivedBook){
+        return bookDao.addbook_arrived(arrivedBook);
+    }
+    public ArrivedBook getArrivedBook(String dgh){
+        return bookDao.getArrivedBook(dgh);
+    }
+    public int updateBookArrived(ArrivedBook arrivedBook){
+        return bookDao.updatebook_arrived(arrivedBook);
+    }
+
+    //book_catalog
+    public int deletebook_catalog(String pjh){
+        return bookDao.deleteBook_catalog(pjh);
+    }
+    public int addbook_catalog(Book_catalog book_catalog){
+        return bookDao.addbook_catalog(book_catalog);
+    }
+    public Book_catalog getBook_catalog(String pjg){
+        return bookDao.getBook_catalog(pjg);
+    }
+    public int updateBook_catalog(Book_catalog book_catalog){
+        return bookDao.addbook_catalog(book_catalog);
+    }
+
+
+    //book_reduce
+    public int deletebook_reduce(String jsrq){
+        return bookDao.deleteBook_reduce(jsrq);
+    }
+    public int addbook_reduce(Book_reduce book_reduce){
+        return bookDao.addbook_reduce(book_reduce);
+    }
+    public Book_reduce getBook_reduce(String jsrq){
+        return bookDao.getBook_reduce(jsrq);
+    }
+    public int updateBook_reduce(Book_reduce book_reduce){
+        return bookDao.addbook_reduce(book_reduce);
+    }
 }
